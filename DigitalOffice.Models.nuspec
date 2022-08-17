@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>DigitalOffice.Models</id>
+    <id>Lanit-Tercom.DigitalOffice.Models</id>
     <version>1.0.1</version>
-    <title>DigitalOffice.Models</title>
-    <authors>Digital Office Team</authors>
-    <owners>Digital Office</owners>
+    <title>Lanit-Tercom.DigitalOffice.Models</title>
+    <authors>Lanit-Tercom Digital Office Team</authors>
+    <owners>Lanit-Tercom Digital Office</owners>
     <projectUrl>https://github.com/LT-Students/DigitalOffice-BrokerModels</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
@@ -16,7 +16,7 @@
 
 	</releaseNotes>
     <copyright>Copyright © Digital Office</copyright>
-    <tags>DigitalOffice</tags>
+    <tags>Lanit-Tercom.DigitalOffice</tags>
   </metadata>
   <files>
     <file src="artifacts\DigitalOffice.Models.dll" target="lib\net6.0" />
