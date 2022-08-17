@@ -32,7 +32,7 @@ jobs:
         run: dotnet build --no-restore --configuration Release --output ./artifacts
 
       - name: Pack nuget
-        run: nuget pack DigitalOffice.Models.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts
+        run: nuget pack Lanit-Tercom.DigitalOffice.Models.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts
 
       - name: Push nuget
         run: dotnet nuget push ./artifacts/**.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET_API_KEY}}
