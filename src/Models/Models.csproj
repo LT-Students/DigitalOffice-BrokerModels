@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.1</Version>
+
+        <TargetFramework>net6.0</TargetFramework>
+
+        <AssemblyName>DigitalOffice.Models</AssemblyName>
+        <RootNamespace>DigitalOffice.Models</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+</Project>

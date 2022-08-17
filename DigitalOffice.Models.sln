@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38525F80-2E67-4662-881A-501B59B783F1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		DigitalOffice.Models.nuspec = DigitalOffice.Models.nuspec
+		.github\workflows\main.yml = .github\workflows\main.yml
+		.github\workflows\nuget.yml = .github\workflows\nuget.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50E28FB1-5A3F-46B7-95B8-403A02792546}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "src\Models\Models.csproj", "{3CA583B1-0F14-43EA-9D39-F745FA1340E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CA583B1-0F14-43EA-9D39-F745FA1340E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA583B1-0F14-43EA-9D39-F745FA1340E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA583B1-0F14-43EA-9D39-F745FA1340E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA583B1-0F14-43EA-9D39-F745FA1340E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CA583B1-0F14-43EA-9D39-F745FA1340E1} = {50E28FB1-5A3F-46B7-95B8-403A02792546}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00CC359A-9F59-4C80-AB5C-E95153D2C90C}
+	EndGlobalSection
+EndGlobal
