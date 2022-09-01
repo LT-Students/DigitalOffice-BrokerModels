@@ -13,7 +13,7 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Department
             Guid userId,
             Guid departmentId,
             Guid createdBy,
-            bool isActive)
+            bool isActive = false)
         {
             return new
             {

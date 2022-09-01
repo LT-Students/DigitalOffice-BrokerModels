@@ -26,7 +26,7 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Company
             DateTime? endWorkingAt,
             DateTime? probation,
             Guid createdBy,
-            bool isActive)
+            bool isActive = false)
         {
             return new
             {

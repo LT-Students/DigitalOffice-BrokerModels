@@ -9,7 +9,7 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Right
         Guid CreatedBy { get; }
         bool IsActive { get; }
 
-        static object CreateObj(Guid userId, Guid roleId, Guid createdBy, bool isActive)
+        static object CreateObj(Guid userId, Guid roleId, Guid createdBy, bool isActive = false)
         {
             return new
             {
