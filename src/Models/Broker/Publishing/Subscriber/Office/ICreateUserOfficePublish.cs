@@ -7,17 +7,20 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Office
         Guid UserId { get; set; }
         Guid OfficeId { get; set; }
         Guid CreatedBy { get; set; }
+        bool IsActive { get; }
 
         static object CreateObj(
             Guid userId,
             Guid officeId,
-            Guid createdBy)
+            Guid createdBy,
+            bool isActive)
         {
             return new
             {
                 UserId = userId,
                 OfficeId = officeId,
-                CreatedBy = createdBy
+                CreatedBy = createdBy,
+                IsActive = isActive
             };
         }
     }
