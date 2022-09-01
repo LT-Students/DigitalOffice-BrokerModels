@@ -10,13 +10,15 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 		int TakeCount { get; }
 		bool? AscendingSort { get; }
 		string FullNameIncludeSubstring { get; }
+        bool? IsActive { get; }
 
-		static object CreateObj(
+        static object CreateObj(
 			List<Guid> usersIds,
 			int skipCount = 0,
 			int takeCount = 1,
 			bool? ascendingSort = null,
-			string fullNameIncludeSubstring = null)
+			string fullNameIncludeSubstring = null,
+			bool? isActive = true)
 		{
 			return new
 			{
@@ -24,7 +26,8 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 				SkipCount = skipCount,
 				TakeCount = takeCount,
 				AscendingSort = ascendingSort,
-				FullNameIncludeSubstring = fullNameIncludeSubstring
+				FullNameIncludeSubstring = fullNameIncludeSubstring,
+				IsActive = isActive
 			};
 		}
 	}
