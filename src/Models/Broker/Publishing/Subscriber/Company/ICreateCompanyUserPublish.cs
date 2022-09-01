@@ -14,6 +14,7 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Company
         public DateTime? EndWorkingAt { get; }
         public DateTime? Probation { get; }
         Guid CreatedBy { get; }
+        bool IsActive { get; }
 
         static object CreateObj(
             Guid companyId,
@@ -24,7 +25,8 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Company
             DateTime startWorkingAt,
             DateTime? endWorkingAt,
             DateTime? probation,
-            Guid createdBy)
+            Guid createdBy,
+            bool isActive = false)
         {
             return new
             {
@@ -36,7 +38,8 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Company
                 StartWorkingAt = startWorkingAt,
                 EndWorkingAt = endWorkingAt,
                 Probation = probation,
-                CreatedBy = createdBy
+                CreatedBy = createdBy,
+                IsActive = isActive
             };
         }
     }

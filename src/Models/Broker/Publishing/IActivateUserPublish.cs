@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.Skill
+namespace DigitalOffice.Models.Broker.Publishing
 {
-    public interface IGetUserSkillsRequest
+    public interface IActivateUserPublish
     {
         Guid UserId { get; }
 
-        static object CreateObj(
-            Guid userId)
+        static object CreateObj(Guid userId)
         {
             return new
             {

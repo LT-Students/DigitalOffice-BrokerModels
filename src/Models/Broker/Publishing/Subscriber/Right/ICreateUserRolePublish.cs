@@ -4,17 +4,19 @@ namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Right
 {
     public interface ICreateUserRolePublish
     {
-        Guid RoleId { get; }
         Guid UserId { get; }
-        Guid ChangedBy { get; }
+        Guid RoleId { get; }
+        Guid CreatedBy { get; }
+        bool IsActive { get; }
 
-        static object CreateObj(Guid roleId, Guid userId, Guid changedBy)
+        static object CreateObj(Guid userId, Guid roleId, Guid createdBy, bool isActive = false)
         {
             return new
             {
-                RoleId = roleId,
                 UserId = userId,
-                ChangedBy = changedBy
+                RoleId = roleId,
+                CreatedBy = createdBy,
+                IsActive = isActive
             };
         }
     }
