@@ -9,7 +9,7 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 
 		bool IncludeBaseEmail { get; }
 
-        static object CreateObj(
+		static object CreateObj(
 			List<Guid> usersIds,
 			bool includeBaseEmail = false)
 		{
