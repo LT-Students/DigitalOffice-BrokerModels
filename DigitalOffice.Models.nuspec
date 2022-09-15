@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,11 +10,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.2 - added IsActive to Publish user requests, added IActivateUserPublish, removed skill request/response, removed education request/response.
+		1.0.3 - added Email to UserData, added EmailForWarningNullWorktime to TemplateType.
 
 		Previous versions:
+		1.0.2 - added IsActive to Publish user requests, added IActivateUserPublish, removed skill request/response, removed education request/response.
 		1.0.0 - Initial version.
-		
+
 	</releaseNotes>
     <copyright>Copyright © Digital Office</copyright>
     <tags>Lanit-Tercom.DigitalOffice</tags>
