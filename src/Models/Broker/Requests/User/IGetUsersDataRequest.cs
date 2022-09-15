@@ -7,12 +7,16 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 	{
 		List<Guid> UsersIds { get; }
 
-		static object CreateObj(
-			List<Guid> usersIds)
+		bool IncludeBaseEmail { get; }
+
+        static object CreateObj(
+			List<Guid> usersIds,
+			bool includeBaseEmail = false)
 		{
 			return new
 			{
-				UsersIds = usersIds
+				UsersIds = usersIds,
+				IncludeBaseEmail = includeBaseEmail
 			};
 		}
 	}
