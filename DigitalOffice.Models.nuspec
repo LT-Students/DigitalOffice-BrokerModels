@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.3 - added Email to UserData, added EmailForWarningNullWorktime to TemplateType and added flag IncludeBaseEmail to IGetUsersDataRequest.
+		1.0.3 - added Email to UserData, added EmptyUserWorktimes  to TemplateType and added flag IncludeBaseEmail to IGetUsersDataRequest.
 
 		Previous versions:
 		1.0.2 - added IsActive to Publish user requests, added IActivateUserPublish, removed skill request/response, removed education request/response.
