@@ -10,8 +10,16 @@ namespace LT.DigitalOffice.Models.Broker.Models
         public string MiddleName { get; }
         public string LastName { get; }
         public bool IsActive { get; }
+        public string Email { get; }
 
-        public UserData(Guid id, Guid? imageId, string firstName, string middleName, string lastName, bool isActive)
+        public UserData(
+            Guid id,
+            Guid? imageId,
+            string firstName,
+            string middleName,
+            string lastName,
+            bool isActive,
+            string email)
         {
             Id = id;
             ImageId = imageId;
@@ -19,6 +27,7 @@ namespace LT.DigitalOffice.Models.Broker.Models
             MiddleName = middleName;
             LastName = lastName;
             IsActive = isActive;
+            Email = email;
         }
     }
 }
