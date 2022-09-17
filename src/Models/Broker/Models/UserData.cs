@@ -19,7 +19,7 @@ namespace LT.DigitalOffice.Models.Broker.Models
             string middleName,
             string lastName,
             bool isActive,
-            string email)
+            string email = null)
         {
             Id = id;
             ImageId = imageId;
