@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,10 +10,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.4 - fixed UserData.
+		1.0.5 - added Wiki to ImageSource, removed Reactions from ImageSource.
 
 		Previous versions:
-        1.0.3 - added Email to UserData, added EmptyUserWorktimes  to TemplateType and added flag IncludeBaseEmail to IGetUsersDataRequest.
+		1.0.4 - fixed UserData.
+		1.0.3 - added Email to UserData, added EmptyUserWorktimes  to TemplateType and added flag IncludeBaseEmail to IGetUsersDataRequest.
 		1.0.2 - added IsActive to Publish user requests, added IActivateUserPublish, removed skill request/response, removed education request/response.
 		1.0.0 - Initial version.
 
