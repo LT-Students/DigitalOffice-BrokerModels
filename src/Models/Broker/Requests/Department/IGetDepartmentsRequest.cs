@@ -9,7 +9,7 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Department
     List<Guid> UsersIds { get; }
     bool IncludeChildDepartmentsIds { get; }
 
-        static object CreateObj(
+    static object CreateObj(
       List<Guid> departmentsIds = null,
       List<Guid> usersIds = null,
       bool includeChildDepartmentsIds = false)
