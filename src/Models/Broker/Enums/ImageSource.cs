@@ -7,6 +7,7 @@
         Project,
         News,
         Education,
-        Wiki
+        Wiki,
+        Reaction
     }
 }
