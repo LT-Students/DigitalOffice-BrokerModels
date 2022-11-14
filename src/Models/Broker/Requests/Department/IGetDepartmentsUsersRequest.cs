@@ -7,15 +7,18 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Department
   {
     List<Guid> DepartmentsIds { get; }
     DateTime? ByEntryDate { get; }
+    bool IncludePendingUsers { get; }
 
     static object CreateObj(
       List<Guid> departmentsIds,
-      DateTime? byEntryDate = null)
+      DateTime? byEntryDate = null,
+      bool includePendingUsers = false)
     {
       return new
       {
         DepartmentsIds = departmentsIds,
-        ByEntryDate = byEntryDate
+        ByEntryDate = byEntryDate,
+        IncludePendingUsers = includePendingUsers
       };
     }
   }
