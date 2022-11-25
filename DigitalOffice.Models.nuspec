@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.11</version>
+    <version>1.0.12</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.11 - added IsActive to IGetProjectsUsersRequest.
+		1.0.12 - added FileSource.
 
 		Previous versions:
+		1.0.11 - added IsActive to IGetProjectsUsersRequest.
 		1.0.10 - added ICreatePendingUserPublish, added bool IsPending to DepartmentUserExtendedData, added bool IncludePendingUsers to IGetDepartmentsUSersRequest.
 		1.0.9 - added Reaction to ImageSource.
 		1.0.8 - added IncludeChildDepartmentsIds to IGetDepartmentsRequest.
