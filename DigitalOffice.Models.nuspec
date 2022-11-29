@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.13</version>
+    <version>1.0.14</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.13 - added FileSource to IGetFilesRequest and IRemoveFilesPublish.
+		1.0.14 - rename ICreateFilesPublish to ICreateProjectFilesPublish.
 
 		Previous versions:
+		1.0.13 - added FileSource to IGetFilesRequest and IRemoveFilesPublish.
 		1.0.12 - added FileSource.
 		1.0.11 - added IsActive to IGetProjectsUsersRequest.
 		1.0.10 - added ICreatePendingUserPublish, added bool IsPending to DepartmentUserExtendedData, added bool IncludePendingUsers to IGetDepartmentsUSersRequest.
