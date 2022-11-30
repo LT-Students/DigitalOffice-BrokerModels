@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.15 - added Reaction to ImageSource and FileSource.
+		1.0.15 - added Library to ImageSource and FileSource.
 
 		Previous versions:
 		1.0.14 - rename ICreateFilesPublish to ICreateProjectFilesPublish.
