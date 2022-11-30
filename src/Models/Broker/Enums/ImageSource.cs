@@ -8,6 +8,7 @@
         News,
         Education,
         Wiki,
-        Reaction
+        Reaction,
+        Library
     }
 }

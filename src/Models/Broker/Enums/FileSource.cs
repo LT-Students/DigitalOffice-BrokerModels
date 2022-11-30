@@ -3,6 +3,7 @@
     public enum FileSource
     {
         Wiki,
-        Project
+        Project,
+        Library
     }
 }
