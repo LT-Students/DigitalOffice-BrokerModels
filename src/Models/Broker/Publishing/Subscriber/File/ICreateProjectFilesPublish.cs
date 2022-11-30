@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.File
 {
-    public interface ICreateFilesPublish
+    public interface ICreateProjectFilesPublish
     {
         List<Guid> FilesIds { get; }
         FileAccessType Access { get; }
