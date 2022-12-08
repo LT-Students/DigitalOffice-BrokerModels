@@ -13,6 +13,7 @@ namespace LT.DigitalOffice.Models.Broker.Enums
         ConfirmСommunication = 4,
         UserRecovery = 5,
         SmtpCheck = 6,
-        EmptyUserWorktimes = 7
+        EmptyUserWorktimes = 7,
+        FeedbackReply = 8
     }
 }
