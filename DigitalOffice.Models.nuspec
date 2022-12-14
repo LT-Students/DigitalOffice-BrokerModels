@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.16</version>
+    <version>1.0.17</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.16 - add FeedbackReply value to TemplateType enum.
+		1.0.17 - add Locale enum.
 
 		Previous versions:
+		1.0.16 - add FeedbackReply value to TemplateType enum.
 		1.0.15 - added Library to ImageSource and FileSource.
 		1.0.14 - rename ICreateFilesPublish to ICreateProjectFilesPublish.
 		1.0.13 - added FileSource to IGetFilesRequest and IRemoveFilesPublish.
