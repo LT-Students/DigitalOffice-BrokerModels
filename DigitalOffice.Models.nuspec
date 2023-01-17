@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.18 - update to .NET 7.0.
+		1.0.18 - update to .NET 7.0..
 
 		Previous versions:
 		1.0.17 - add Locale enum.
