@@ -11,7 +11,10 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Image
         ImageSource ImageSource { get; }
         public Guid CreatedBy { get; }
 
-        static object CreateObj(List<CreateImageData> images, ImageSource imageSource, Guid createdBy)
+        static object CreateObj(
+            List<CreateImageData> images,
+            ImageSource imageSource,
+            Guid createdBy)
         {
             return new
             {

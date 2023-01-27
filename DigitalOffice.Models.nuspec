@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.18</version>
+    <version>1.0.19</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.18 - update to .NET 7.0.
+		1.0.19 - add ResizeParameters to CreateImageData.
 
 		Previous versions:
+		1.0.18 - update to .NET 7.0.
 		1.0.17 - add Locale enum.
 		1.0.16 - add FeedbackReply value to TemplateType enum.
 		1.0.15 - added Library to ImageSource and FileSource.
