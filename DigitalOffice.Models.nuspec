@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.19</version>
+    <version>1.0.21</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.19 - add ResizeParameters to CreateImageData.
+		1.0.21 - add IncludeArchived to IGetProjectsRequest and Archived to ProjectStatusType.
 
 		Previous versions:
+		1.0.20 - added IsActive to CompanyUserData, ContractSubjectData, DepartmentUserData; added UserIsActive to IGetCompaniesRequest and IGetDepartmentsRequest.
+		1.0.19 - add ResizeParameters to CreateImageData.
 		1.0.18 - update to .NET 7.0.
 		1.0.17 - add Locale enum.
 		1.0.16 - add FeedbackReply value to TemplateType enum.

@@ -9,6 +9,7 @@ namespace LT.DigitalOffice.Models.Broker.Enums
         Active,
         Closed,
         Suspend,
+        Archived,
         DoesNotExist = 100
     }
 }
