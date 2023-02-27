@@ -10,13 +10,15 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Project
     List<Guid> DepartmentsIds { get; }
     bool IncludeDepartment { get; }
     bool IncludeUsers { get; }
+    bool IncludeArchived { get; }
 
     static object CreateObj(
         List<Guid> projectsIds = null,
         List<Guid> usersIds = null,
         List<Guid> departmentsIds = null,
         bool includeDepartment = false,
-        bool includeUsers = false)
+        bool includeUsers = false,
+        bool includeArchived = false)
     {
       return new
       {
@@ -24,7 +26,8 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Project
         UsersIds = usersIds,
         DepartmentsIds = departmentsIds,
         IncludeDepartment = includeDepartment,
-        IncludeUsers = includeUsers
+        IncludeUsers = includeUsers,
+        IncludeArchived = includeArchived
       };
     }
   }
