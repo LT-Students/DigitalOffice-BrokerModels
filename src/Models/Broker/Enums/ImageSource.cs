@@ -9,6 +9,7 @@
         Education,
         Wiki,
         Reaction,
-        Library
+        Library,
+        Office
     }
 }
