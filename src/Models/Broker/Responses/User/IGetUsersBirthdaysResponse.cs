@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Responses.User
 {
-    public interface IGetUserBirthdayResponse
+    public interface IGetUsersBirthdaysResponse
     {
         List<UserBirthday> UsersBirthdays { get; }
 

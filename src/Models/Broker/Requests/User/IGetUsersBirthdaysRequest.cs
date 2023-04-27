@@ -1,6 +1,6 @@
 ﻿namespace DigitalOffice.Models.Broker.Requests.User
 {
-    public interface IGetUserBirthdayRequest
+    public interface IGetUsersBirthdaysRequest
     {
         static object CreateObj()
         {

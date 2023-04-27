@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.24 - add UsersBirtdays.
+		1.0.24 - add UsersBirthdays: UserBirthday, IGetUsersBirthdaysRequest, IGetUsersBirthdaysResponse, IUpdateUserBirthdayPublish.
 
 		Previous versions:
 		1.0.23 - add Office to ImageSource.
