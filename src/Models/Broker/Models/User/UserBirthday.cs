@@ -14,6 +14,5 @@ namespace DigitalOffice.Models.Broker.Models.User
             UserId = userId;
             DateOfBirth = dateOfBirth;
         }
-
     }
 }
