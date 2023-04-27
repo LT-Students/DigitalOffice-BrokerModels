@@ -6,15 +6,13 @@ namespace DigitalOffice.Models.Broker.Publishing
     {
         Guid UserId { get; }
         DateTime? DateOfBirth { get; }
-        bool IsActive { get; }
 
-        static object CreateObj(Guid userId, DateTime dateOfBirth, bool isActive)
+        static object CreateObj(Guid userId, DateTime dateOfBirth)
         {
             return new
             {
                 UserId = userId,
-                DateOfBirth = dateOfBirth,
-                IsActive = isActive
+                DateOfBirth = dateOfBirth
             };
         }
     }
