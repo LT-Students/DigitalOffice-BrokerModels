@@ -2,7 +2,7 @@
 
 namespace DigitalOffice.Models.Broker.Publishing.Subscriber.User
 {
-    public interface IUpdateUserBirtdayPublish
+    public interface IUpdateUserBirthdayPublish
     {
         Guid UserId { get; }
         DateTime? DateOfBirth { get; }
