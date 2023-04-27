@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DigitalOffice.Models.Broker.Publishing
+namespace DigitalOffice.Models.Broker.Publishing.Subscriber.User
 {
     public interface IUpdateUserBirtdayPublish
     {
