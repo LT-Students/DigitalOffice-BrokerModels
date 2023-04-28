@@ -1,9 +1,9 @@
-﻿using LT.DigitalOffice.Models.Broker.Models;
+﻿using DigitalOffice.Models.Broker.Models.User;
 using System.Collections.Generic;
 
 namespace LT.DigitalOffice.Models.Broker.Responses.User
 {
-	public interface IGetUsersDataResponse
+    public interface IGetUsersDataResponse
 	{
 		List<UserData> UsersData { get; }
 
