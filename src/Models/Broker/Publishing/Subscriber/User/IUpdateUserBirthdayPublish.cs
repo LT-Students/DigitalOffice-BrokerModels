@@ -7,7 +7,7 @@ namespace DigitalOffice.Models.Broker.Publishing.Subscriber.User
         Guid UserId { get; }
         DateTime? DateOfBirth { get; }
 
-        static object CreateObj(Guid userId, DateTime dateOfBirth)
+        static object CreateObj(Guid userId, DateTime? dateOfBirth)
         {
             return new
             {
