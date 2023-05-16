@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.25</version>
+    <version>1.0.26</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.25 - set DateOfBirth as nullable in IUpdateUserBirthdayPublish model.
+		1.0.26 - add ICreateEventFilesPublish, add Event to ImageSource and FileSource.
 
 		Previous versions:
+		1.0.25 - set DateOfBirth as nullable in IUpdateUserBirthdayPublish model.
 		1.0.24 - add UsersBirthdays: UserBirthday, IGetUsersBirthdaysRequest, IGetUsersBirthdaysResponse, IUpdateUserBirthdayPublish; removed IGetSmtpCredentialsRequest and IGetSmtpCredentialsResponse.
 		1.0.23 - add Office to ImageSource.
 		1.0.22 - added ICheckFilesFromPublicArticleRequest.
