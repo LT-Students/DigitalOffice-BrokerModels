@@ -4,6 +4,7 @@
     {
         Wiki,
         Project,
-        Library
+        Library,
+        Event
     }
 }

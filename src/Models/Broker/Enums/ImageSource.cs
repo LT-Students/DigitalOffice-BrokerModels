@@ -10,6 +10,7 @@
         Wiki,
         Reaction,
         Library,
-        Office
+        Office,
+        Event
     }
 }
