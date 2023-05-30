@@ -1,16 +1,16 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace LT.DigitalOffice.Models.Broker.Models
 {
-    public class SearchInfo
+    public class SearchInfo<T>
     {
-        public Guid Id { get; }
-        public string Value { get; }
+        public List<T> Values { get; }
+        public int TotalCount { get; }
 
-        public SearchInfo(Guid id, string value)
+        public SearchInfo(List<T> values)
         {
-            Id = id;
-            Value = value;
+            Values = values;
+            TotalCount = values.Count;
         }
     }
 }
