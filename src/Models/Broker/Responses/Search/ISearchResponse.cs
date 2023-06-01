@@ -1,17 +1,18 @@
-﻿using LT.DigitalOffice.Models.Broker.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace LT.DigitalOffice.Models.Broker.Responses.Search
 {
-    public interface ISearchResponse
+    public interface ISearchResponse<T>
     {
-        List<SearchInfo> Entities { get; }
+        List<T> Values { get; }
+        int TotalCount { get; }
 
-        static object CreateObj(List<SearchInfo> entities)
+        static object CreateObj(List<T> values)
         {
             return new
             {
-                Entities = entities
+                Values = values,
+                TotalCount = values.Count
             };
         }
     }
