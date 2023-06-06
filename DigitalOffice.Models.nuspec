@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.28</version>
+    <version>1.0.29</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.28 - add models for search service.
+		1.0.29 - added IFilterSkillsResponse, IFilterSkillsRequest and SkillFilteredData.
 
 		Previous versions:
+		1.0.28 - add models for search service.
 		1.0.27 - add ICheckEventsExistence.
 		1.0.26 - add ICreateEventFilesPublish, add Event to ImageSource and FileSource.
 		1.0.25 - set DateOfBirth as nullable in IUpdateUserBirthdayPublish model.
