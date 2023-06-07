@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      1.0.29 - add DepartmentUserAssignment enum, IGetDepartmentExtendedData request and response, DepartmnetUserRoleData model, add DepartmentUserAssignment to IGetDepartmentUserRoleResponse.
+      1.0.29 - add DepartmentUserAssignment enum, IGetDepartmentExtendedData request and response, DepartmentUserRoleData model, add DepartmentUserAssignment to IGetDepartmentUserRoleResponse.
       
       Previous versions:
       1.0.28 - add models for search service.

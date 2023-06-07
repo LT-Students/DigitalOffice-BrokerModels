@@ -10,14 +10,14 @@ public interface IGetDepartmentExtendedDataResponse
   Guid? ParentId { get; }
   string Name { get; }
   string Description { get; }
-  List<DepartmnetUserRolesData> Users { get; }
+  List<DepartmentUserRoleData> Users { get; }
 
   public static object CreateObj(
     Guid id,
     Guid? parentId,
     string name,
     string description,
-    List<DepartmnetUserRolesData> users)
+    List<DepartmentUserRoleData> users)
   {
     return new
     {
