@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      1.0.30 - added IFilterSkillsResponse, IFilterSkillsRequest and SkillFilteredData, rename ICheckEventsExistence to ICheckEventsEntitiesExistence and ICreateEventFilesPublish to ICreateEventEntitiesFilesPublish.
+      1.0.30 - add IFilterSkillsResponse, IFilterSkillsRequest and SkillFilteredData, rename ICheckEventsExistence to ICheckEventsEntitiesExistence and ICreateEventFilesPublish to ICreateEventEntitiesFilesPublish.
       
       Previous versions:
       1.0.29 - add DepartmentUserAssignment enum, IGetDepartmentExtendedData request and response, DepartmentUserRoleData model, add DepartmentUserAssignment to IGetDepartmentUserRoleResponse.

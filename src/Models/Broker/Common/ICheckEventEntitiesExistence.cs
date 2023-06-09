@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Common
 {
-    public interface ICheckEventsEntitiesExistence
+    public interface ICheckEventEntitiesExistence
     {
         List<Guid> EntitiesIds { get; }
 
