@@ -7,7 +7,7 @@ public interface IGetDepartmentExtendedDataRequest
   Guid DepartmentId { get; }
   bool IncludeUsersRoles { get; }
 
-  static object CretateObj(
+  static object CreateObj(
     Guid departmentId,
     bool includeUsersRoles)
   {
