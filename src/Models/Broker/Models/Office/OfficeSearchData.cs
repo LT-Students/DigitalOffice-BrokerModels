@@ -9,6 +9,7 @@ namespace DigitalOffice.Models.Broker.Models.Office
         public string Address { get; }
         public string StartTime { get; }
         public string EndTime { get; }
+
         public OfficeSearchData(Guid id, string name, string address, string startTime, string endTime)
         {
             Id = id;
