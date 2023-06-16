@@ -2,9 +2,9 @@
 {
     public interface ISearchProjectsRequest
     {
-        string Value { get; }
+        string[] Value { get; }
 
-        static object CreateObj(string value)
+        static object CreateObj(string[] value)
         {
             return new
             {

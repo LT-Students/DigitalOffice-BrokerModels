@@ -8,6 +8,7 @@ namespace DigitalOffice.Models.Broker.Models.User
         public string FirstName { get; }
         public string LastName { get; }
         public string MiddleName { get; }
+
         public UserSearchData(Guid id, string firstName, string lastName, string middleName)
         {
             Id = id;
