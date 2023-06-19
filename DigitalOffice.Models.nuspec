@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.31</version>
+    <version>1.0.32</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.31 - fix ISearchDepartmentsRequest, ISearchNewsRequest, ISearchOfficesRequest, ISearchProjectsRequest, ISearchUsersRequest, ISearchWikiRequest, DepartmentSearchData, OfficeSearchData, ProjectSearchData
+		1.0.32 - add IUpdateDepartmentDataPublish, IUpdateUserDataPublish, IUpdateDepartmentUserDataPublish
 
 		Previous versions:
+		1.0.31 - fix ISearchDepartmentsRequest, ISearchNewsRequest, ISearchOfficesRequest, ISearchProjectsRequest, ISearchUsersRequest, ISearchWikiRequest, DepartmentSearchData, OfficeSearchData, ProjectSearchData
 		1.0.30 - add IFilterSkillsResponse, IFilterSkillsRequest and SkillFilteredData, rename ICheckEventsExistence to ICheckEventsEntitiesExistence and ICreateEventFilesPublish to ICreateEventEntitiesFilesPublish.
 		1.0.29 - add DepartmentUserAssignment enum, IGetDepartmentExtendedData request and response, DepartmentUserRoleData model, add DepartmentUserAssignment to IGetDepartmentUserRoleResponse.
 		1.0.28 - add models for search service.
