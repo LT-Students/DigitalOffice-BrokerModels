@@ -1,12 +1,13 @@
 ﻿using DigitalOffice.Models.Broker.Enums;
 using LT.DigitalOffice.Models.Broker.Enums;
 using System;
+using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Publishing.Subscriber.CompanyStructure;
 
-public interface IUpdateDepartmentUserDataPublish
+public interface IUpdateDepartmentUsersDataPublish
 {
-  Guid UserId { get; set; }
+  List<Guid> UsersIds { get; set; }
   Guid? DepartmentId { get; set; }
   DepartmentUserRole? Role { get; set; }
   DepartmentUserAssignment? Assignment { get; set; }
@@ -14,7 +15,7 @@ public interface IUpdateDepartmentUserDataPublish
   Guid ModifiedBy { get; set; }
 
   static object CreateObj(
-    Guid userId,
+    List<Guid> usersIds,
     Guid? departmentId,
     DepartmentUserRole? role,
     DepartmentUserAssignment? assignment,
@@ -23,7 +24,7 @@ public interface IUpdateDepartmentUserDataPublish
   {
     return new
     {
-      UserId = userId,
+      UsersIds = usersIds,
       DepartmentId = departmentId,
       Role = role,
       Assignment = assignment,
