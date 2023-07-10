@@ -5,12 +5,14 @@ namespace DigitalOffice.Models.Broker.Models.News
     public class NewsSearchData
     {
         public Guid Id { get; }
-        public string Preview { get; }
+        public string Subject { get; }
+        public string Content { get; }
 
-        public NewsSearchData(Guid id, string preview)
+        public NewsSearchData(Guid id, string subject, string content)
         {
             Id = id;
-            Preview = preview;
+            Subject = subject;
+            Content = content;
         }
     }
 }
