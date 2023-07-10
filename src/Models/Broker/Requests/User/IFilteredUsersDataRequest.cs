@@ -10,15 +10,17 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 		int TakeCount { get; }
 		bool? AscendingSort { get; }
 		string FullNameIncludeSubstring { get; }
-        bool? IsActive { get; }
-
-        static object CreateObj(
+    bool? IsActive { get; }
+    Guid? GenderId { get; }
+    
+		static object CreateObj(
 			List<Guid> usersIds,
 			int skipCount = 0,
 			int takeCount = 1,
 			bool? ascendingSort = null,
 			string fullNameIncludeSubstring = null,
-			bool? isActive = true)
+			bool? isActive = true,
+			Guid? genderId = null)
 		{
 			return new
 			{
@@ -27,7 +29,8 @@ namespace LT.DigitalOffice.Models.Broker.Requests.User
 				TakeCount = takeCount,
 				AscendingSort = ascendingSort,
 				FullNameIncludeSubstring = fullNameIncludeSubstring,
-				IsActive = isActive
+				IsActive = isActive,
+				GenderId = genderId
 			};
 		}
 	}
