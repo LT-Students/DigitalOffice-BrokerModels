@@ -13,7 +13,7 @@
 		1.0.36 - add GenderId to IFilteredUsersDataRequest, IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
 
 		Previous versions:
-    1.0.35 - change properties in NewsSearchData.
+		1.0.35 - change properties in NewsSearchData.
 		1.0.34 - add IFilterRateResponse, IFilterRateRequest and RateFilteredData.
 		1.0.33 - change UserId to UsersIds in IUpdateDepartmentUsersDataPublish.
 		1.0.32 - add IUpdateDepartmentDataPublish, IUpdateUserDataPublish, IUpdateDepartmentUserDataPublish
