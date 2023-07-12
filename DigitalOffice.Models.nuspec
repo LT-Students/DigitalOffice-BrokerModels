@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.36</version>
+    <version>1.0.37</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.36 - add GenderId to IFilteredUsersDataRequest, IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
+		1.0.37 - fix namespace in IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
 
 		Previous versions:
+		1.0.36 - add GenderId to IFilteredUsersDataRequest, IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
 		1.0.35 - change properties in NewsSearchData.
 		1.0.34 - add IFilterRateResponse, IFilterRateRequest and RateFilteredData.
 		1.0.33 - change UserId to UsersIds in IUpdateDepartmentUsersDataPublish.
