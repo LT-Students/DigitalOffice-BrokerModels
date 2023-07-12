@@ -1,6 +1,6 @@
 using System;
 
-namespace DigitalOffice.Models.Broker.Models.Education;
+namespace LT.DigitalOffice.Models.Broker.Models.Education;
 
 public class EducationFilteredData
 {
