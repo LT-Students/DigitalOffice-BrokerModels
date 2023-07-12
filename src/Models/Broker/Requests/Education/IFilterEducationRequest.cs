@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DigitalOffice.Models.Broker.Requests.Education;
+namespace LT.DigitalOffice.Models.Broker.Requests.Education;
 
 public interface IFilterEducationRequest
 {
