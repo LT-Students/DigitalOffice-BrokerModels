@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using DigitalOffice.Models.Broker.Models.Education;
+using LT.DigitalOffice.Models.Broker.Models.Education;
 
-namespace DigitalOffice.Models.Broker.Responses.Education;
+namespace LT.DigitalOffice.Models.Broker.Responses.Education;
 
 public interface IFilterEducationResponse
 {
