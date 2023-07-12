@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.37 - fix namespace IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
+		1.0.37 - fix namespace in IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
 
 		Previous versions:
 		1.0.36 - add GenderId to IFilteredUsersDataRequest, IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
