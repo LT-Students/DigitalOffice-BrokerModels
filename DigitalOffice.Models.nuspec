@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.38 - add IGetUsersDataDictionaryRequest and IGetUsersDataDictionaryResponse.
+		1.0.38 - add IGetUsersDataDictionaryRequest, IGetUsersDataDictionaryResponse and change StartTime, EndTime types in OfficeSearchData.
 
 		Previous versions:
 		1.0.37 - fix namespace in IFilterEducationResponse, IFilterEducationRequest and EducationFilteredData.
