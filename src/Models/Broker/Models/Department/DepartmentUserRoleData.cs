@@ -9,14 +9,17 @@ public class DepartmentUserRoleData
   public Guid Id { get; set; }
   public DepartmentUserRole Role { get; set; }
   public DepartmentUserAssignment Assignment { get; set; }
+  public bool IsActive { get; set; }
 
   public DepartmentUserRoleData(
     Guid id,
     DepartmentUserRole role,
-    DepartmentUserAssignment assignment)
+    DepartmentUserAssignment assignment,
+    bool isActive)
   {
     Id = id;
     Role = role;
     Assignment = assignment;
+    IsActive = isActive;
   }
 }

@@ -6,15 +6,18 @@ public interface IGetDepartmentExtendedDataRequest
 {
   Guid DepartmentId { get; }
   bool IncludeUsersRoles { get; }
+  bool? IsActiveUsers { get; }
 
   static object CreateObj(
     Guid departmentId,
-    bool includeUsersRoles)
+    bool includeUsersRoles,
+    bool? isActiveUsers = true)
   {
     return new
     {
       DepartmentId = departmentId,
-      IncludeUsersRoles = includeUsersRoles
+      IncludeUsersRoles = includeUsersRoles,
+      isActiveUSers = isActiveUsers
     };
   }
 }
