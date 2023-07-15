@@ -17,7 +17,7 @@ public interface IGetDepartmentExtendedDataRequest
     {
       DepartmentId = departmentId,
       IncludeUsersRoles = includeUsersRoles,
-      isActiveUSers = isActiveUsers
+      IsActiveUsers = isActiveUsers
     };
   }
 }
