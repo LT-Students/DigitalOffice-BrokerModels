@@ -11,6 +11,7 @@
         Reaction,
         Library,
         Office,
-        Event
+        Event,
+        Survey
     }
 }
