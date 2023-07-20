@@ -1,17 +1,16 @@
 ﻿using System;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.Office
-{
-    public interface ICheckWorkspaceIsBookableRequest
-    {
-        Guid WorkspaceId { get; }
+namespace LT.DigitalOffice.Models.Broker.Requests.Office;
 
-        static object CreateObj(Guid workspaceId)
-        {
-            return new
-            {
-                WorkspaceId = workspaceId
-            };
-        }
-    }
+public interface ICheckWorkspaceIsBookableRequest
+{
+  Guid WorkspaceId { get; }
+
+  static object CreateObj(Guid workspaceId)
+  {
+    return new
+    {
+      WorkspaceId = workspaceId
+    };
+  }
 }

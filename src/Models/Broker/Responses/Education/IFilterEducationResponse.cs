@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using LT.DigitalOffice.Models.Broker.Models.Education;
+using System.Collections.Generic;
 
 namespace LT.DigitalOffice.Models.Broker.Responses.Education;
 

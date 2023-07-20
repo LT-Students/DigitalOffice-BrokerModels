@@ -1,10 +1,9 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Enums
+﻿namespace LT.DigitalOffice.Models.Broker.Enums;
+
+public enum SourceKeywords
 {
-    public enum SourceKeywords
-    { 
-        User,
-        News,
-        Project,
-        Department
-    }
+  User,
+  News,
+  Project,
+  Department
 }

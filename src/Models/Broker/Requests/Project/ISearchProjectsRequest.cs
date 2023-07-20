@@ -1,15 +1,14 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Requests.Project
-{
-    public interface ISearchProjectsRequest
-    {
-        string[] Value { get; }
+﻿namespace LT.DigitalOffice.Models.Broker.Requests.Project;
 
-        static object CreateObj(string[] value)
-        {
-            return new
-            {
-                Value = value
-            };
-        }
-    }
+public interface ISearchProjectsRequest
+{
+  string[] Value { get; }
+
+  static object CreateObj(string[] value)
+  {
+    return new
+    {
+      Value = value
+    };
+  }
 }

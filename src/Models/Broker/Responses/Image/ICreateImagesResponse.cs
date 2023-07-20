@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LT.DigitalOffice.Models.Broker.Responses.Image
-{
-    public interface ICreateImagesResponse
-    {
-        List<Guid> ImagesIds { get; }
+namespace LT.DigitalOffice.Models.Broker.Responses.Image;
 
-        static object CreateObj(List<Guid> imagesIds)
-        {
-            return new
-            {
-                ImagesIds = imagesIds
-            };
-        }
-    }
+public interface ICreateImagesResponse
+{
+  List<Guid> ImagesIds { get; }
+
+  static object CreateObj(List<Guid> imagesIds)
+  {
+    return new
+    {
+      ImagesIds = imagesIds
+    };
+  }
 }

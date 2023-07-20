@@ -1,10 +1,9 @@
-﻿namespace DigitalOffice.Models.Broker.Enums
+﻿namespace DigitalOffice.Models.Broker.Enums;
+
+public enum FileSource
 {
-    public enum FileSource
-    {
-        Wiki,
-        Project,
-        Library,
-        Event
-    }
+  Wiki,
+  Project,
+  Library,
+  Event
 }

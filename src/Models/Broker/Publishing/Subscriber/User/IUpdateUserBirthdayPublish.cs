@@ -1,19 +1,18 @@
 ﻿using System;
 
-namespace DigitalOffice.Models.Broker.Publishing.Subscriber.User
-{
-    public interface IUpdateUserBirthdayPublish
-    {
-        Guid UserId { get; }
-        DateTime? DateOfBirth { get; }
+namespace DigitalOffice.Models.Broker.Publishing.Subscriber.User;
 
-        static object CreateObj(Guid userId, DateTime? dateOfBirth)
-        {
-            return new
-            {
-                UserId = userId,
-                DateOfBirth = dateOfBirth
-            };
-        }
-    }
+public interface IUpdateUserBirthdayPublish
+{
+  Guid UserId { get; }
+  DateTime? DateOfBirth { get; }
+
+  static object CreateObj(Guid userId, DateTime? dateOfBirth)
+  {
+    return new
+    {
+      UserId = userId,
+      DateOfBirth = dateOfBirth
+    };
+  }
 }

@@ -1,15 +1,14 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Requests.News
-{
-  public interface ISearchNewsRequest
-  {
-    string[] Value { get; }
+﻿namespace LT.DigitalOffice.Models.Broker.Requests.News;
 
-    static object CreateObj(string[] value)
+public interface ISearchNewsRequest
+{
+  string[] Value { get; }
+
+  static object CreateObj(string[] value)
+  {
+    return new
     {
-      return new
-      {
-        Value = value
-      };
-    }
+      Value = value
+    };
   }
 }

@@ -1,18 +1,17 @@
 using System;
 using System.Collections.Generic;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.Skill
-{
-  public interface IFilterSkillsRequest
-  {
-    List<Guid> SkillsIds { get; }
+namespace LT.DigitalOffice.Models.Broker.Requests.Skill;
 
-    static object CreateObj(List<Guid> skillsIds)
+public interface IFilterSkillsRequest
+{
+  List<Guid> SkillsIds { get; }
+
+  static object CreateObj(List<Guid> skillsIds)
+  {
+    return new
     {
-      return new
-      {
-        SkillsIds = skillsIds,
-      };
-    }
+      SkillsIds = skillsIds,
+    };
   }
 }
