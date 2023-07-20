@@ -6,13 +6,13 @@ namespace DigitalOffice.Models.Broker.Responses.User;
 
 public interface IGetUsersCommunicationsDictionaryResponse
 {
-  Dictionary<Guid, UserCommunicationData> UsersCommunications { get; }
+  Dictionary<Guid, List<UserCommunicationData>> UsersCommunications { get; }
 
-  static object CreateObj(Dictionary<Guid, UserData> usersCommunications)
+  static object CreateObj(Dictionary<Guid, List<UserCommunicationData>> usersCommunications)
   {
     return new
     {
-      UsersData = usersCommunications,
+      UsersCommunications = usersCommunications,
     };
   }
 }
