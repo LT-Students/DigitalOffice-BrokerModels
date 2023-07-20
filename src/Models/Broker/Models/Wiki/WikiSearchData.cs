@@ -1,16 +1,18 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Models.Wiki
 {
     public class WikiSearchData
     {
-        public Guid Id { get; }
-        public string Name { get; }
+        public List<ArticleOrRubricSearchData> ArticleSearchData { get; }
+        public List<ArticleOrRubricSearchData> RubricSearchData { get; }
 
-        public WikiSearchData(Guid id, string name)
+        public WikiSearchData(
+            List<ArticleOrRubricSearchData> articleSearchData,
+            List<ArticleOrRubricSearchData> rubricSearchData)
         {
-            Id = id;
-            Name = name;
+            ArticleSearchData = articleSearchData;
+            RubricSearchData = rubricSearchData;
         }
     }
 }
