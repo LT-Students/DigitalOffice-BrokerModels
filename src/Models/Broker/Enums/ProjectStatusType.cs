@@ -1,15 +1,14 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace LT.DigitalOffice.Models.Broker.Enums
+namespace LT.DigitalOffice.Models.Broker.Enums;
+
+[JsonConverter(typeof(StringEnumConverter))]
+public enum ProjectStatusType
 {
-    [JsonConverter(typeof(StringEnumConverter))]
-    public enum ProjectStatusType
-    {
-        Active,
-        Closed,
-        Suspend,
-        Archived,
-        DoesNotExist = 100
-    }
+  Active,
+  Closed,
+  Suspend,
+  Archived,
+  DoesNotExist = 100
 }

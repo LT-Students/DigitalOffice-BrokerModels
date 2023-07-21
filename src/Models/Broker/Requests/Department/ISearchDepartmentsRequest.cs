@@ -1,15 +1,14 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Requests.Department
-{
-    public interface ISearchDepartmentsRequest
-    {
-        string[] Value { get; }
+﻿namespace LT.DigitalOffice.Models.Broker.Requests.Department;
 
-        static object CreateObj(string[] value)
-        {
-            return new
-            {
-                Value = value
-            };
-        }
-    }
+public interface ISearchDepartmentsRequest
+{
+  string[] Value { get; }
+
+  static object CreateObj(string[] value)
+  {
+    return new
+    {
+      Value = value
+    };
+  }
 }

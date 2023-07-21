@@ -1,19 +1,18 @@
 ﻿using LT.DigitalOffice.Models.Broker.Models.Project;
 using System.Collections.Generic;
 
-namespace LT.DigitalOffice.Models.Broker.Responses.Project
-{
-  public interface IGetProjectsResponse
-  {
-    List<ProjectData> Projects { get; }
+namespace LT.DigitalOffice.Models.Broker.Responses.Project;
 
-    static object CreateObj(
-      List<ProjectData> projects)
+public interface IGetProjectsResponse
+{
+  List<ProjectData> Projects { get; }
+
+  static object CreateObj(
+    List<ProjectData> projects)
+  {
+    return new
     {
-      return new
-      {
-        Projects = projects
-      };
-    }
+      Projects = projects
+    };
   }
 }

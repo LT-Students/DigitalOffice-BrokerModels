@@ -1,22 +1,21 @@
 ﻿using DigitalOffice.Models.Broker.Enums;
 using LT.DigitalOffice.Models.Broker.Enums;
 
-namespace LT.DigitalOffice.Models.Broker.Responses.Department
-{
-  public interface IGetDepartmentUserRoleResponse
-  {
-    DepartmentUserRole? DepartmentUserRole { get; }
-    DepartmentUserAssignment? DepartmentUserAssignment { get; }
+namespace LT.DigitalOffice.Models.Broker.Responses.Department;
 
-    static object CreateObj(
-      DepartmentUserRole? departmentUserRole,
-      DepartmentUserAssignment? departmentUserAssignment)
+public interface IGetDepartmentUserRoleResponse
+{
+  DepartmentUserRole? DepartmentUserRole { get; }
+  DepartmentUserAssignment? DepartmentUserAssignment { get; }
+
+  static object CreateObj(
+    DepartmentUserRole? departmentUserRole,
+    DepartmentUserAssignment? departmentUserAssignment)
+  {
+    return new
     {
-      return new
-      {
-        DepartmentUserRole = departmentUserRole,
-        DepartmentUserAssignment = departmentUserAssignment
-      };
-    }
+      DepartmentUserRole = departmentUserRole,
+      DepartmentUserAssignment = departmentUserAssignment
+    };
   }
 }

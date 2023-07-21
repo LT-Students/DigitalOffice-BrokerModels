@@ -1,27 +1,26 @@
 ﻿using System;
 
-namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Office
-{
-    public interface ICreateUserOfficePublish
-    {
-        Guid UserId { get; set; }
-        Guid OfficeId { get; set; }
-        Guid CreatedBy { get; set; }
-        bool IsActive { get; }
+namespace LT.DigitalOffice.Models.Broker.Publishing.Subscriber.Office;
 
-        static object CreateObj(
-            Guid userId,
-            Guid officeId,
-            Guid createdBy,
-            bool isActive = false)
-        {
-            return new
-            {
-                UserId = userId,
-                OfficeId = officeId,
-                CreatedBy = createdBy,
-                IsActive = isActive
-            };
-        }
-    }
+public interface ICreateUserOfficePublish
+{
+  Guid UserId { get; set; }
+  Guid OfficeId { get; set; }
+  Guid CreatedBy { get; set; }
+  bool IsActive { get; }
+
+  static object CreateObj(
+      Guid userId,
+      Guid officeId,
+      Guid createdBy,
+      bool isActive = false)
+  {
+    return new
+    {
+      UserId = userId,
+      OfficeId = officeId,
+      CreatedBy = createdBy,
+      IsActive = isActive
+    };
+  }
 }

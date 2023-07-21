@@ -1,13 +1,12 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace LT.DigitalOffice.Models.Broker.Enums
+namespace LT.DigitalOffice.Models.Broker.Enums;
+
+[JsonConverter(typeof(StringEnumConverter))]
+public enum ProjectUserRoleType
 {
-    [JsonConverter(typeof(StringEnumConverter))]
-    public enum ProjectUserRoleType
-    {
-        Manager,
-        Employee,
-        Observer = 100
-    }
+  Manager,
+  Employee,
+  Observer = 100
 }

@@ -1,8 +1,7 @@
-﻿namespace DigitalOffice.Models.Broker.Enums
+﻿namespace DigitalOffice.Models.Broker.Enums;
+
+public enum Locale
 {
-  public enum Locale
-  {
-    Ru,
-    En
-  }
+  Ru,
+  En
 }

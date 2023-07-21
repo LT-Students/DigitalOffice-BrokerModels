@@ -1,19 +1,18 @@
 ﻿using System;
 
-namespace DigitalOffice.Models.Broker.Publishing
-{
-  public interface ICreatePendingUserPublish
-  {
-    Guid UserId { get; }
-    Guid CreatedBy { get; }
+namespace DigitalOffice.Models.Broker.Publishing;
 
-    static object CreateObj(Guid userId, Guid createdBy)
+public interface ICreatePendingUserPublish
+{
+  Guid UserId { get; }
+  Guid CreatedBy { get; }
+
+  static object CreateObj(Guid userId, Guid createdBy)
+  {
+    return new
     {
-      return new
-      {
-        UserId = userId,
-        CreatedBy = createdBy
-      };
-    }
+      UserId = userId,
+      CreatedBy = createdBy
+    };
   }
 }

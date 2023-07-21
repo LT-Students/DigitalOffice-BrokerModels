@@ -1,6 +1,6 @@
 ﻿using DigitalOffice.Models.Broker.Models.Department;
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Responses.Department;
 

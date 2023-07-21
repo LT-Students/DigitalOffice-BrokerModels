@@ -1,16 +1,16 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Enums
+﻿namespace LT.DigitalOffice.Models.Broker.Enums;
+
+public enum ImageSource
 {
-    public enum ImageSource
-    {
-        User,
-        Message,
-        Project,
-        News,
-        Education,
-        Wiki,
-        Reaction,
-        Library,
-        Office,
-        Event
-    }
+  User,
+  Message,
+  Project,
+  News,
+  Education,
+  Wiki,
+  Reaction,
+  Library,
+  Office,
+  Event,
+  Survey
 }

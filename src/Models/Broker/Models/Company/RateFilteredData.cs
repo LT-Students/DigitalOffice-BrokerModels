@@ -7,7 +7,7 @@ public class RateFilteredData
 {
   public double Rate { get; }
   public List<Guid> UsersIds { get; }
-  
+
   public RateFilteredData(double rate, List<Guid> usersIds)
   {
     Rate = rate;

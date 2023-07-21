@@ -1,10 +1,9 @@
-﻿namespace DigitalOffice.Models.Broker.Requests.User
+﻿namespace DigitalOffice.Models.Broker.Requests.User;
+
+public interface IGetUsersBirthdaysRequest
 {
-    public interface IGetUsersBirthdaysRequest
-    {
-        static object CreateObj()
-        {
-            return new { };
-        }
-    }
+  static object CreateObj()
+  {
+    return new { };
+  }
 }

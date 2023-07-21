@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.Company
-{
-  public interface IGetCompaniesRequest
-  {
-    List<Guid> UsersIds { get; }
-    bool? UserIsActive { get; }
+namespace LT.DigitalOffice.Models.Broker.Requests.Company;
 
-    static object CreateObj(
-      List<Guid> usersIds = null,
-      bool? userIsActive = true)
+public interface IGetCompaniesRequest
+{
+  List<Guid> UsersIds { get; }
+  bool? UserIsActive { get; }
+
+  static object CreateObj(
+    List<Guid> usersIds = null,
+    bool? userIsActive = true)
+  {
+    return new
     {
-      return new
-      {
-        UsersIds = usersIds,
-        UserIsActive = userIsActive
-      };
-    }
+      UsersIds = usersIds,
+      UserIsActive = userIsActive
+    };
   }
 }

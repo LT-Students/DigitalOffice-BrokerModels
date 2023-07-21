@@ -1,22 +1,21 @@
 ﻿using LT.DigitalOffice.Models.Broker.Enums;
 using System;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.TextTemplate
-{
-  public interface IGetTextTemplateRequest
-  {
-    Guid? EndpointId { get; }
-    TemplateType TemplateType { get; }
-    string Locale { get; }
+namespace LT.DigitalOffice.Models.Broker.Requests.TextTemplate;
 
-    static object CreateObj(Guid? endpointId, TemplateType templateType, string locale)
+public interface IGetTextTemplateRequest
+{
+  Guid? EndpointId { get; }
+  TemplateType TemplateType { get; }
+  string Locale { get; }
+
+  static object CreateObj(Guid? endpointId, TemplateType templateType, string locale)
+  {
+    return new
     {
-      return new
-      {
-        EndpointId = endpointId,
-        TemplateType = templateType,
-        Locale = locale
-      };
-    }
+      EndpointId = endpointId,
+      TemplateType = templateType,
+      Locale = locale
+    };
   }
 }
