@@ -1,5 +1,4 @@
-﻿namespace LT.DigitalOffice.Models.Broker.Requests.Wiki;
-
+﻿namespace DigitalOffice.Models.Broker.Requests.Wiki;
 public interface ISearchWikiRequest
 {
   string[] Value { get; }
