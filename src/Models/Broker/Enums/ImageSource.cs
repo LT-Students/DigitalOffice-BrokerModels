@@ -12,5 +12,6 @@ public enum ImageSource
   Library,
   Office,
   Event,
-  Survey
+  Survey,
+  CompanyStructure
 }
