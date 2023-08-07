@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.46</version>
+    <version>1.0.47</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.46 - add CompanyStructure to ImageSource.
+		1.0.47 - add description of search service model fields for swager.
 
 		Previous versions:
+		1.0.46 - add CompanyStructure to ImageSource.
 		1.0.45 - add models for updating user contacts in CompanyStructureService.
 		1.0.44 - add ArticleSearchData, RubricSearchData and ISearchWikiResponse, remove WikiSearchData.
 		1.0.43 - fix IGetUsersCommunicationsDictionaryResponse.
