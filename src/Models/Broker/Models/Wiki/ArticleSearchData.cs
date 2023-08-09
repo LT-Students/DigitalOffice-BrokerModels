@@ -1,16 +1,22 @@
 ﻿using System;
 
-namespace DigitalOffice.Models.Broker.Models.Wiki
-{
-    public class ArticleSearchData
-    {
-        public Guid Id { get; }
-        public string Name { get; }
+namespace DigitalOffice.Models.Broker.Models.Wiki;
 
-        public ArticleSearchData(Guid id, string name)
-        {
-            Id = id;
-            Name = name;
-        }
-    }
+public class ArticleSearchData
+{
+  /// <summary>
+  /// Article Unique identifier.
+  /// </summary>
+  public Guid Id { get; }
+
+  /// <summary>
+  /// Article name.
+  /// </summary>
+  public string Name { get; }
+
+  public ArticleSearchData(Guid id, string name)
+  {
+    Id = id;
+    Name = name;
+  }
 }
