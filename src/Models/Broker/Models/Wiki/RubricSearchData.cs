@@ -2,21 +2,21 @@
 
 namespace DigitalOffice.Models.Broker.Models.Wiki;
 
-  public class RubricSearchData
+public class RubricSearchData
+{
+  /// <summary>
+  /// Rubric Unique identifier.
+  /// </summary>
+  public Guid Id { get; }
+
+  /// <summary>
+  /// Rubric name.
+  /// </summary>
+  public string Name { get; }
+
+  public RubricSearchData(Guid id, string name)
   {
-    /// <summary>
-    /// Rubric Unique identifier.
-    /// </summary>
-    public Guid Id { get; }
-
-    /// <summary>
-    /// Rubric name.
-    /// </summary>
-    public string Name { get; }
-
-    public RubricSearchData(Guid id, string name)
-    {
-        Id = id;
-        Name = name;
-    }
+    Id = id;
+    Name = name;
   }
+}
