@@ -1,23 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <Version>1.0.47</Version>
+	<PropertyGroup>
+		<Version>1.0.48</Version>
 
-        <TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 
-        <AssemblyName>DigitalOffice.Models</AssemblyName>
-        <RootNamespace>DigitalOffice.Models</RootNamespace>
-        <IsPackable>true</IsPackable>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>DigitalOffice.Models</AssemblyName>
+		<RootNamespace>DigitalOffice.Models</RootNamespace>
+		<IsPackable>true</IsPackable>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<NoWarn>$(NoWarn);1573</NoWarn>
+		<NoWarn>$(NoWarn);1570</NoWarn>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
 
-        <GenerateDocumentationFile>false</GenerateDocumentationFile>
-
-        <OutputType>Library</OutputType>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
 </Project>
