@@ -14,5 +14,7 @@ public enum TemplateType
   UserRecovery = 5,
   SmtpCheck = 6,
   EmptyUserWorktimes = 7,
-  FeedbackReply = 8
+  FeedbackReply = 8,
+  SurveyCreated = 9,
+  SurveyReminder = 10
 }
