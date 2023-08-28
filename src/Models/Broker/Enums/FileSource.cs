@@ -5,5 +5,6 @@ public enum FileSource
   Wiki,
   Project,
   Library,
-  Event
+  Event,
+  Claim
 }
