@@ -13,5 +13,6 @@ public enum ImageSource
   Office,
   Event,
   Survey,
-  CompanyStructure
+  CompanyStructure,
+  Claim
 }

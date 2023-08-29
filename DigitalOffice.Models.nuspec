@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DigitalOffice.Models</id>
-    <version>1.0.51</version>
+    <version>1.0.52</version>
     <title>DigitalOffice.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.51 - add SurveyCreated, SurveyReminder to TemplateType.
+		1.0.52 - add claim to image and file sources.
 
 		Previous versions:
+		1.0.51 - add SurveyCreated, SurveyReminder to TemplateType.
 		1.0.50 - fix xml generation.
 		1.0.49 - fix xml generation.
 		1.0.48 - add xml generation.
