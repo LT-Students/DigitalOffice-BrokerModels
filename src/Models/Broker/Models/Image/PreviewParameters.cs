@@ -1,5 +1,8 @@
 ﻿namespace DigitalOffice.Models.Broker.Models.Image;
 
+/// <summary>
+/// Options for resizing the preview image
+/// </summary>
 public class PreviewParameters
 {
   /// <summary>
