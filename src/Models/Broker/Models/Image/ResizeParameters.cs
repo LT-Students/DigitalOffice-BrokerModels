@@ -1,8 +1,18 @@
 ﻿namespace DigitalOffice.Models.Broker.Models.Image;
 
+/// <summary>
+/// Options for resizing image
+/// </summary>
 public class ResizeParameters
 {
+  /// <summary>
+  /// The highest acceptable image resolution in height and width
+  /// </summary>
   public int? MaxResizeValue { get; }
+
+  /// <summary>
+  /// Highest desired image weight
+  /// </summary>
   public int? MaxSizeCompress { get; }
   public PreviewParameters PreviewParameters { get; }
 
