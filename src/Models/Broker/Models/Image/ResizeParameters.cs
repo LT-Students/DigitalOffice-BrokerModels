@@ -1,7 +1,7 @@
 ﻿namespace DigitalOffice.Models.Broker.Models.Image;
 
 /// <summary>
-/// Options for resizing images
+/// Options for resizing image
 /// </summary>
 public class ResizeParameters
 {
