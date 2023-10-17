@@ -19,10 +19,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Broker\Requests\Survey\IGetSurveyUsersRequest.cs~RF948aab74.TMP" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 </Project>
