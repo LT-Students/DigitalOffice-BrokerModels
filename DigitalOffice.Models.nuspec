@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>DigitalOffice.Models</id>
+    <id>LTDO.Models</id>
     <version>1.0.54</version>
-    <title>DigitalOffice.Models</title>
+    <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
     <projectUrl>https://github.com/LT-Students/DigitalOffice-BrokerModels</projectUrl>
