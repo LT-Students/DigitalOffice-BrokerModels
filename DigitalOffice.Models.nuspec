@@ -72,8 +72,8 @@
     <tags>DigitalOffice</tags>
   </metadata>
   <files>
-    <file src="artifacts\DigitalOffice.Models.dll" target="lib\net7.0" />
-    <file src="artifacts\DigitalOffice.Models.pdb" target="lib\net7.0" />
-		<file src="artifacts\DigitalOffice.Models.xml" target="lib\net7.0" />
+    <file src="artifacts\LTDO.Models.dll" target="lib\net7.0" />
+    <file src="artifacts\LTDO.Models.pdb" target="lib\net7.0" />
+		<file src="artifacts\LTDO.Models.xml" target="lib\net7.0" />
   </files>
 </package>
