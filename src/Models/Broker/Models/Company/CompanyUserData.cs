@@ -19,7 +19,7 @@ public class CompanyUserData
     ContractSubjectData contractSubject,
     ContractTerm contractTermType,
     double? rate,
-    DateTime startWorkingAt,
+    DateTime? startWorkingAt,
     DateTime? endWorkingAt,
     DateTime? probation,
     bool isActive)
