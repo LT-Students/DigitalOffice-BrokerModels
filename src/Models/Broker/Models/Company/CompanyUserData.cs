@@ -9,7 +9,7 @@ public class CompanyUserData
   public ContractSubjectData ContractSubject { get; }
   public ContractTerm ContractTermType { get; }
   public double? Rate { get; }
-  public DateTime StartWorkingAt { get; }
+  public DateTime? StartWorkingAt { get; }
   public DateTime? EndWorkingAt { get; }
   public DateTime? Probation { get; }
   public bool IsActive { get; }
