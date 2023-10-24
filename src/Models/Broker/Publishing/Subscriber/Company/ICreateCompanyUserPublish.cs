@@ -10,7 +10,7 @@ public interface ICreateCompanyUserPublish
   public Guid? ContractSubjectId { get; }
   public ContractTerm ContractTermType { get; }
   double? Rate { get; }
-  DateTime StartWorkingAt { get; }
+  DateTime? StartWorkingAt { get; }
   public DateTime? EndWorkingAt { get; }
   public DateTime? Probation { get; }
   Guid CreatedBy { get; }
@@ -22,7 +22,7 @@ public interface ICreateCompanyUserPublish
       Guid? contractSubjectId,
       ContractTerm contractTermType,
       double? rate,
-      DateTime startWorkingAt,
+      DateTime? startWorkingAt,
       DateTime? endWorkingAt,
       DateTime? probation,
       Guid createdBy,
