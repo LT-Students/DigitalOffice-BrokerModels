@@ -16,5 +16,6 @@ public enum TemplateType
   EmptyUserWorktimes = 7,
   FeedbackReply = 8,
   SurveyCreated = 9,
-  SurveyReminder = 10
+  SurveyReminder = 10,
+  FeedbackReceived = 11
 }
