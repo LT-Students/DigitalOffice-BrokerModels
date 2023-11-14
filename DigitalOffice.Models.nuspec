@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>LTDO.Models</id>
-    <version>1.0.58</version>
+    <version>1.0.59</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		1.0.58 - fix StartWorkingAt in CompanyUserData.
+		1.0.59 - add FeedbackReceived to TemplateType.
 
 		Previous versions:
+		1.0.58 - fix StartWorkingAt in CompanyUserData.
 		1.0.57 - make StartWorkingAt in CompanyUserData nullable.
 		1.0.56 - make StartWorkingAt in ICreateCompanyUserPublish nullable.
 		1.0.55 - transfer to new Nuget API.
