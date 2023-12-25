@@ -5,7 +5,7 @@ namespace LT.DigitalOffice.Models.Broker.Models.Department;
 public class DepartmentUserExtendedData
 {
   public Guid UserId { get; }
-  public Guid DepartmenId { get; }
+  public Guid DepartmentId { get; }
   public bool IsActive { get; }
   public bool IsPending { get; }
 
@@ -16,7 +16,7 @@ public class DepartmentUserExtendedData
     bool isPending)
   {
     UserId = userId;
-    DepartmenId = departmentId;
+    DepartmentId = departmentId;
     IsActive = isActive;
     IsPending = isPending;
   }
