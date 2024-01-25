@@ -11,6 +11,7 @@ public interface IFilteredUsersDataRequest
   bool? AscendingSort { get; }
   string FullNameIncludeSubstring { get; }
   bool? IsActive { get; }
+  bool? IsPending { get; }
   Guid? GenderId { get; }
 
   static object CreateObj(
@@ -20,7 +21,8 @@ public interface IFilteredUsersDataRequest
     bool? ascendingSort = null,
     string fullNameIncludeSubstring = null,
     bool? isActive = true,
-    Guid? genderId = null)
+    Guid? genderId = null,
+    bool? isPending = null)
   {
     return new
     {
@@ -30,7 +32,8 @@ public interface IFilteredUsersDataRequest
       AscendingSort = ascendingSort,
       FullNameIncludeSubstring = fullNameIncludeSubstring,
       IsActive = isActive,
-      GenderId = genderId
+      IsPending = isPending,
+      GenderId = genderId,
     };
   }
 }

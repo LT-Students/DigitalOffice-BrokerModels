@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.3</version>
+    <version>2.0.4</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.3 - add ICreateFiles request/response
+      2.0.4 - add IsPending to IFilteredUsersDataRequest and UserData
 
       Previous versions:
+      2.0.3 - add ICreateFiles request/response
       2.0.2 - add ICreateUserDataPublish
       2.0.1 - Fix typo in DepartmentUserExtendedData
       2.0.0 - migrate to dotnet 8

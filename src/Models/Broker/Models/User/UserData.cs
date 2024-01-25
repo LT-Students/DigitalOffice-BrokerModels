@@ -10,6 +10,7 @@ public class UserData
   public string MiddleName { get; }
   public string LastName { get; }
   public bool IsActive { get; }
+  public bool IsPending { get; }
   public string Email { get; }
 
   public UserData(
@@ -19,6 +20,7 @@ public class UserData
       string middleName,
       string lastName,
       bool isActive,
+      bool isPending,
       string email = null)
   {
     Id = id;
@@ -27,6 +29,7 @@ public class UserData
     MiddleName = middleName;
     LastName = lastName;
     IsActive = isActive;
+    IsPending = isPending;
     Email = email;
   }
 }
