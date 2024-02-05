@@ -7,7 +7,7 @@ namespace DigitalOffice.Models.Broker.Responses.Filter
   {
     List<UserWithCommunicationData> Users { get; }
 
-    static object CreateObj(List<UserData> users)
+    static object CreateObj(List<UserWithCommunicationData> users)
     {
       return new
       {
