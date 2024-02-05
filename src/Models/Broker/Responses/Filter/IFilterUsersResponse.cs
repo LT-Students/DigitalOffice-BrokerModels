@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Responses.Filter
 {
-  public class IFilterUsersResponse
+  public interface IFilterUsersResponse
   {
-    List<UserData> UsersData { get; }
+    List<UserWithCommunicationData> Users { get; }
 
-    static object CreateObj(List<UserData> usersData)
+    static object CreateObj(List<UserData> users)
     {
       return new
       {
-        UsersData = usersData,
+        Users = users,
       };
     }
   }

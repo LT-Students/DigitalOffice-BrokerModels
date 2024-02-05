@@ -17,7 +17,8 @@ namespace DigitalOffice.Models.Broker.Requests.Filter
       bool? isPending = null,
       bool includeCommunications = false)
     {
-      return new {
+      return new 
+      {
         FullNameIncludeSubstring = fullNameIncludeSubstring,
         IsActive = isActive,
         IsPending = isPending,
