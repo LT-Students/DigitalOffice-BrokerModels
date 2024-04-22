@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DigitalOffice.Models.Broker.Requests.Reaction;
+namespace DigitalOffice.Models.Broker.Common;
 
 public interface ICheckReactionsExistence
 {

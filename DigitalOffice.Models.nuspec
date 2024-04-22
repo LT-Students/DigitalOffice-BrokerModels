@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.11</version>
+    <version>2.0.12</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-		2.0.11 - add ICheckReactionsExistence.
+		2.0.12 - fix ICheckReactionsExistence.
 
 		Previous versions:
+		2.0.11 - add ICheckReactionsExistence.
 		2.0.10 - fix IFilterUsersResponse
 		2.0.9 - add CommunicationId to IFilterUsersResponse
 		2.0.8 - add IGetSkills request and response
