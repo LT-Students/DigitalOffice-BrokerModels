@@ -11,7 +11,7 @@
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
 		2.0.13 - add ICheckDigestsExistence, ICreateDigestFilesPublish, DigestFileData, DigestLanguage enum
-		and Digest to FileSource
+		and Digest to FileSource.
 
 		Previous versions:
 		2.0.12 - fix ICheckReactionsExistence.
