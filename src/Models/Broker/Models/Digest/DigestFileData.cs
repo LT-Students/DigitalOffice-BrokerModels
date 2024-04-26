@@ -6,11 +6,11 @@ namespace DigitalOffice.Models.Broker.Models.Digest;
 public class DigestFileData
 {
   public Guid Id { get; }
-  public Locale Language { get; }
+  public Locale Localization { get; }
 
-  public DigestFileData(Guid id, Locale language)
+  public DigestFileData(Guid id, Locale localization)
   {
     Id = id;
-    Language = language;
+    Localization = localization;
   }
 }
