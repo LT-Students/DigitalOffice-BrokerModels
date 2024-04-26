@@ -6,9 +6,9 @@ namespace DigitalOffice.Models.Broker.Models.Digest;
 public class DigestFileData
 {
   public Guid Id { get; }
-  public DigestLanguage Language { get; }
+  public Locale Language { get; }
 
-  public DigestFileData(Guid id, DigestLanguage language)
+  public DigestFileData(Guid id, Locale language)
   {
     Id = id;
     Language = language;
