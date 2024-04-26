@@ -6,5 +6,6 @@ public enum FileSource
   Project,
   Library,
   Event,
-  Claim
+  Claim,
+  Digest
 }
