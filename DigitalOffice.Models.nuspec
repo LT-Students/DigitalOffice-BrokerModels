@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.15 - fix DigestFileData.
+      2.0.15 - add Name to DigestFileData.
 
       Previous versions:
       2.0.14 - fix ICheckDigestsExistence.
