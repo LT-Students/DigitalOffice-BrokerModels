@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.16</version>
+    <version>2.0.17</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.16 - add Extension to DigestFileData.
+      2.0.17 - add Path to DigestFileData.
 
       Previous versions:
+      2.0.16 - add Extension to DigestFileData.
       2.0.15 - add Name to DigestFileData, add ISendEmailWithFilesRequest.
       2.0.14 - fix ICheckDigestsExistence.
       2.0.13 - add ICheckDigestsExistence, ICreateDigestFilesPublish, DigestFileData and Digest to FileSource.
