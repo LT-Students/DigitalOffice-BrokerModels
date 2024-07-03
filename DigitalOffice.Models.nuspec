@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.18 - add ImageId to ISendEmailWithFilesRequest.
+      2.0.18 - add ImageId to ISendEmailWithFilesRequest, add Digest to ImageSource.
 
       Previous versions:
       2.0.17 - add Path to DigestFileData.
