@@ -14,5 +14,6 @@ public enum ImageSource
   Event,
   Survey,
   CompanyStructure,
-  Claim
+  Claim,
+  Digest
 }
