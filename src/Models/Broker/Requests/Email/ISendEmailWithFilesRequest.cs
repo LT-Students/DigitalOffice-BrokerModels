@@ -9,7 +9,7 @@ public interface ISendEmailWithFilesRequest
   List<string> Receivers { get; }
   string Subject { get; }
   string Text { get; }
-  Guid ImageId { get; }
+  List<Guid> ImageIds { get; }
   List<DigestFileData> Files { get; }
   Guid? SenderId { get; }
 
@@ -17,7 +17,7 @@ public interface ISendEmailWithFilesRequest
       List<string> receivers,
       string subject,
       string text,
-      Guid imageId,
+      List<Guid> imageIds,
       List<DigestFileData> files,
       Guid? senderId = null)
   {
@@ -27,7 +27,7 @@ public interface ISendEmailWithFilesRequest
       Receivers = receivers,
       Subject = subject,
       Text = text,
-      ImageId = imageId,
+      ImageIds = imageIds,
       Files = files
     };
   }
