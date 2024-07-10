@@ -6,7 +6,7 @@ namespace DigitalOffice.Models.Broker.Requests.Email;
 
 public interface ISendEmailWithFilesRequest
 {
-  string Receiver { get; }
+  List<string> Receivers { get; }
   string Subject { get; }
   string Text { get; }
   Guid ImageId { get; }
@@ -14,7 +14,7 @@ public interface ISendEmailWithFilesRequest
   Guid? SenderId { get; }
 
   static object CreateObj(
-      string receiver,
+      List<string> receivers,
       string subject,
       string text,
       Guid imageId,
@@ -24,7 +24,7 @@ public interface ISendEmailWithFilesRequest
     return new
     {
       SenderId = senderId,
-      Receiver = receiver,
+      Receivers = receivers,
       Subject = subject,
       Text = text,
       ImageId = imageId,
