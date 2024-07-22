@@ -6,28 +6,28 @@ namespace DigitalOffice.Models.Broker.Requests.Email;
 
 public interface ISendEmailWithFilesRequest
 {
-  string Receiver { get; }
+  List<string> Receivers { get; }
   string Subject { get; }
   string Text { get; }
-  Guid ImageId { get; }
+  List<Guid> ImageIds { get; }
   List<DigestFileData> Files { get; }
   Guid? SenderId { get; }
 
   static object CreateObj(
-      string receiver,
+      List<string> receivers,
       string subject,
       string text,
-      Guid imageId,
+      List<Guid> imageIds,
       List<DigestFileData> files,
       Guid? senderId = null)
   {
     return new
     {
       SenderId = senderId,
-      Receiver = receiver,
+      Receivers = receivers,
       Subject = subject,
       Text = text,
-      ImageId = imageId,
+      ImageIds = imageIds,
       Files = files
     };
   }
