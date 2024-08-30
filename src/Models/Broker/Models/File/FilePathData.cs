@@ -1,12 +1,12 @@
 ﻿namespace DigitalOffice.Models.Broker.Models.File;
 
-public class EmailFileData
+public class FilePathData
 {
   public string Name { get; }
   public string Path { get; }
   public string Extension { get; }
 
-  public EmailFileData(
+  public FilePathData(
     string name,
     string path,
     string extension)
