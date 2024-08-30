@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.20 - add FilePathData.
+      2.0.20 - add FilePathData and IGetFilesPathsResponse.
 
       Previous versions:
       2.0.19 - change ISendEmailWithFilesRequest.
