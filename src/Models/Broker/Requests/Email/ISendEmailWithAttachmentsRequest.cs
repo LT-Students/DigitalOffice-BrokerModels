@@ -1,16 +1,17 @@
 ﻿using DigitalOffice.Models.Broker.Models.Digest;
+using DigitalOffice.Models.Broker.Models.File;
 using System;
 using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Requests.Email;
 
-public interface ISendEmailWithFilesRequest
+public interface ISendEmailWithAttachmentsRequest
 {
   List<string> Receivers { get; }
   string Subject { get; }
   string Text { get; }
   List<Guid> ImageIds { get; }
-  List<DigestFileData> Files { get; }
+  List<FilePathData> Files { get; }
   Guid? SenderId { get; }
 
   static object CreateObj(
@@ -18,7 +19,7 @@ public interface ISendEmailWithFilesRequest
       string subject,
       string text,
       List<Guid> imageIds,
-      List<DigestFileData> files,
+      List<FilePathData> files,
       Guid? senderId = null)
   {
     return new
