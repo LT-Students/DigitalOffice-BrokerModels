@@ -1,5 +1,5 @@
-﻿using DigitalOffice.Models.Broker.Models.Digest;
-using DigitalOffice.Models.Broker.Models.File;
+﻿using DigitalOffice.Models.Broker.Models.File;
+using LT.DigitalOffice.Models.Broker.Requests.Image;
 using System;
 using System.Collections.Generic;
 
@@ -10,7 +10,7 @@ public interface ISendEmailWithAttachmentsRequest
   List<string> Receivers { get; }
   string Subject { get; }
   string Text { get; }
-  List<Guid> ImageIds { get; }
+  List<IGetImagesRequest> Images { get; }
   List<FilePathData> Files { get; }
   Guid? SenderId { get; }
 
