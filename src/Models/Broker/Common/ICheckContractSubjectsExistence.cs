@@ -11,7 +11,7 @@ public interface ICheckContractSubjectsExistence
   {
     return new
     {
-      ContractSubjectId = contractSubjectIds
+      ContractSubjectIds = contractSubjectIds
     };
   }
 }
