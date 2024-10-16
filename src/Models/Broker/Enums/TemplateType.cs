@@ -17,5 +17,6 @@ public enum TemplateType
   FeedbackReply = 8,
   SurveyCreated = 9,
   SurveyReminder = 10,
-  FeedbackReceived = 11
+  FeedbackReceived = 11,
+  HelloWorldPushNotification = 12
 }
