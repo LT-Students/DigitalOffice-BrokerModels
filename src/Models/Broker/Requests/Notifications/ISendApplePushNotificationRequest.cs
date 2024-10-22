@@ -60,11 +60,6 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Notifications
     /// </summary>
     public Dictionary<string, CustomProperty> CustomProperties { get; set; }
 
-    /// <summary>
-    /// Whether to send to a development center.
-    /// </summary>
-    public bool IsDev { get; set; }
-
     static object CreateObj(
       List<Guid> userIds,
       string title,
@@ -76,8 +71,7 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Notifications
       DateTimeOffset? expiration = null,
       int? priority = null,
       string collapseId = null,
-      Dictionary<string, CustomProperty> customProperties = null,
-      bool isDev = true)
+      Dictionary<string, CustomProperty> customProperties = null)
     {
       return new
       {
@@ -91,8 +85,7 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Notifications
         Expiration = expiration,
         Priority = priority,
         CollapseId = collapseId,
-        CustomProperties = customProperties,
-        IsDev = isDev
+        CustomProperties = customProperties
       };
     }
   }
