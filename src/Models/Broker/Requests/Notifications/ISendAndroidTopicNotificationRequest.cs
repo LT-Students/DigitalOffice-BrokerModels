@@ -28,14 +28,14 @@ namespace LT.DigitalOffice.Models.Broker.Requests.Notifications
     /// <summary>
     /// Custom properties.
     /// </summary>
-    public Dictionary<string, CustomProperty> CustomProperties { get; set; }
+    public Dictionary<string, string> CustomProperties { get; set; }
 
     static object CreateObj(
       string topicName,
       string title,
       string body,
       string imageUrl,
-      Dictionary<string, CustomProperty> customProperties = null)
+      Dictionary<string, string> customProperties)
     {
       return new
       {
