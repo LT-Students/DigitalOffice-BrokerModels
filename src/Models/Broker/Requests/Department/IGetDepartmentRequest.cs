@@ -2,7 +2,7 @@ using System;
 
 namespace DigitalOffice.Models.Broker.Requests.Department
 {
-  public interface IGetDepartmentInfoRequest
+  public interface IGetDepartmentRequest
   {
     public Guid DepartmentId { get; }
 

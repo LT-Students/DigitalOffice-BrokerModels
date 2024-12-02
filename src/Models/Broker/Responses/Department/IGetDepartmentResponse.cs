@@ -2,7 +2,7 @@ using DigitalOffice.Models.Broker.Models.Department;
 
 namespace DigitalOffice.Models.Broker.Responses.Department
 {
-  public interface IGetDepartmentInfoResponse
+  public interface IGetDepartmentResponse
   {
     DepartmentResponse DepartmentResponse { get; }
 
