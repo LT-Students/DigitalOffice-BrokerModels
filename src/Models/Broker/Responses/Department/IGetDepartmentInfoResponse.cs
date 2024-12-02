@@ -1,26 +1,17 @@
-using Microsoft.VisualBasic.CompilerServices;
-using System;
-using System.Collections.Generic;
+using DigitalOffice.Models.Broker.Models.Department;
 
 namespace DigitalOffice.Models.Broker.Responses.Department
 {
   public interface IGetDepartmentInfoResponse
   {
-    Guid Id { get; }
+    DepartmentResponse DepartmentResponse { get; }
 
-    string Name { get; }
-
-    string ShortName { get; }
-
-    List<Guid> UsersIds { get; }
-
-    public static object CreateObj(
-      Guid id,
-      string name,
-      string shortName,
-      List<Guid> usersIds)
+    public static object CreateObj(DepartmentResponse departmentResponse)
     {
-      return new { Id = id, Name = name, ShortName = shortName, UsersIds = usersIds };
+      return new
+      {
+        DepartmentResponse = departmentResponse
+      };
     }
   }
 }
