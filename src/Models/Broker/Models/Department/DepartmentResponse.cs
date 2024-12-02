@@ -8,18 +8,30 @@ namespace DigitalOffice.Models.Broker.Models.Department
     public Guid Id { get; }
     public string Name { get; }
     public string ShortName { get; }
-    public List<Guid> UsersIds { get; }
+    public string Description { get; }
+    public bool IsActive { get; }
+    public Guid? ParentId { get; }
+    public CategoryInfo Category { get; }
+    public IEnumerable<DepartmentUserInfo> Users { get; }
 
     public DepartmentResponse(
       Guid id,
       string name,
       string shortName,
-      List<Guid> usersIds = null)
+      string description,
+      bool isActive,
+      Guid? parentId,
+      CategoryInfo category,
+      List<DepartmentUserInfo> users = null)
     {
       Id = id;
       Name = name;
       ShortName = shortName;
-      UsersIds = usersIds;
+      Description = description;
+      IsActive = isActive;
+      ParentId = parentId;
+      Category = category;
+      Users = users;
     }
   }
 }
