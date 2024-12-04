@@ -5,14 +5,14 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
 {
   public record DepartmentInfo
   {
-    public Guid Id { get; }
-    public string Name { get; }
-    public string ShortName { get; }
-    public string Description { get; }
-    public bool IsActive { get; }
-    public Guid? ParentId { get; }
-    public CategoryInfo Category { get; }
-    public List<DepartmentUserInfo> Users { get; }
+    public Guid Id { get; init; }
+    public string Name { get; init; }
+    public string ShortName { get; init; }
+    public string Description { get; init; }
+    public bool IsActive { get; init; }
+    public Guid? ParentId { get; init; }
+    public CategoryInfo Category { get; init; }
+    public List<DepartmentUserInfo> Users { get; init; }
 
     public DepartmentInfo(
       Guid id,
