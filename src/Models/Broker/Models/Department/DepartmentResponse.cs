@@ -12,7 +12,7 @@ namespace DigitalOffice.Models.Broker.Models.Department
     public bool IsActive { get; }
     public Guid? ParentId { get; }
     public CategoryInfo Category { get; }
-    public IEnumerable<DepartmentUserInfo> Users { get; }
+    public List<DepartmentUserInfo> Users { get; }
 
     public DepartmentResponse(
       Guid id,
