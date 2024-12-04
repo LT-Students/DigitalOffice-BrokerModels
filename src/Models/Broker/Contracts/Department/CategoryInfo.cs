@@ -2,10 +2,10 @@
 
 namespace DigitalOffice.Models.Broker.Contracts.Department
 {
-  public class CategoryInfo
+  public record CategoryInfo
   {
-    public Guid Id { get; }
-    public string Name { get; }
+    public Guid Id { get; init; }
+    public string Name { get; init; }
 
     public CategoryInfo(
       Guid id,

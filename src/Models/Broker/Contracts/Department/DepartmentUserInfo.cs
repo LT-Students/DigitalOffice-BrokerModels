@@ -4,11 +4,11 @@ using System;
 
 namespace DigitalOffice.Models.Broker.Contracts.Department
 {
-  public class DepartmentUserInfo
+  public record DepartmentUserInfo
   {
-    public Guid UserId { get; }
-    public DepartmentUserRole Role { get; }
-    public DepartmentUserAssignment Assignment { get; }
+    public Guid UserId { get; init; }
+    public DepartmentUserRole Role { get; init; }
+    public DepartmentUserAssignment Assignment { get; init; }
 
     public DepartmentUserInfo(
       Guid userId,

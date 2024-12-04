@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Contracts.Department
 {
-  public class DepartmentResponse
+  public record DepartmentInfo
   {
     public Guid Id { get; }
     public string Name { get; }
@@ -14,7 +14,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
     public CategoryInfo Category { get; }
     public List<DepartmentUserInfo> Users { get; }
 
-    public DepartmentResponse(
+    public DepartmentInfo(
       Guid id,
       string name,
       string shortName,
