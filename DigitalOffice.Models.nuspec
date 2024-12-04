@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.32</version>
+    <version>2.0.33</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.32 - add IGetDepartmentInfoRequest and IGetDepartmentInfoResponse.
+      2.0.33 - fix DepartmentResponse.
 
       Previous versions:
+      2.0.32 - add IGetDepartmentInfoRequest and IGetDepartmentInfoResponse.
       2.0.31 - add ISendAndroidPushNotificationRequest and ISendAndroidTopicNotificationRequest.
       2.0.30 - update ISendApplePushNotificationRequest, add template.
       2.0.29 - update ISendApplePushNotificationRequest.
