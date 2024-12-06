@@ -13,8 +13,7 @@ namespace DigitalOffice.Models.Contracts.User
     string LastName,
     string MiddleName,
     string Gender,
-    DateTime? DateOfBirth,
-    BirthType BirthType,
+    string DateOfBirth,
     DateTime? BusinessHoursFromUtc,
     DateTime? BusinessHoursToUtc,
     double? Latitude,
@@ -57,12 +56,7 @@ namespace DigitalOffice.Models.Contracts.User
     /// <summary>
     /// User birthdate.
     /// </summary>
-    public DateTime? DateOfBirth { get; init; } = DateOfBirth;
-
-    /// <summary>
-    /// Birthdate display option.
-    /// </summary>
-    public BirthType BirthType { get; init; } = BirthType;
+    public string DateOfBirth { get; init; } = DateOfBirth;
 
     /// <summary>
     /// Time when user starts to work.
