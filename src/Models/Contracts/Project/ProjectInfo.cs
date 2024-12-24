@@ -6,6 +6,7 @@ namespace DigitalOffice.Models.Contracts.Project
   public record ProjectInfo
   {
     public Guid Id { get; init; }
+    public Guid? DepartmentId { get; init; }
     public int Status { get; init; }
     public string Name { get; init; }
     public string ShortName { get; init; }
@@ -14,7 +15,6 @@ namespace DigitalOffice.Models.Contracts.Project
     public string Customer { get; init; }
     public DateTime StartDateUtc { get; init; }
     public DateTime? EndDateUtc { get; init; }
-    public Guid? DepartmentId { get; init; }
     public List<ProjectUserInfo> Users { get; init; }
     public List<Guid> Images { get; init; }
     public List<Guid> Files { get; init; }
