@@ -21,6 +21,7 @@ namespace DigitalOffice.Models.Contracts.User
     bool IsAdmin,
     bool IsActive,
     bool IsPending,
+    int EntitledVacationDays,
     List<UserCommunicationInfo> Communications)
   {
     /// <summary>
@@ -92,6 +93,11 @@ namespace DigitalOffice.Models.Contracts.User
     /// User activation status.
     /// </summary>
     public bool IsPending { get; init; } = IsPending;
+
+    /// <summary>
+    /// Entitled user vacation days.
+    /// </summary>
+    public int EntitledVacationDays { get; set; } = EntitledVacationDays;
 
     /// <summary>
     /// User communications.
