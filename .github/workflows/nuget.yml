@@ -24,11 +24,11 @@ jobs:
         run: dotnet restore
 
       - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Pack
         run: dotnet pack --configuration Release --no-build --output ./artifacts
 
-      - name: Pack nuget
-        run: nuget pack DigitalOffice.Models.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts
-
       - name: Push nuget
-        run: dotnet nuget push ./artifacts/**.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET}}
+        run: dotnet nuget push ./artifacts/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET}}
 
