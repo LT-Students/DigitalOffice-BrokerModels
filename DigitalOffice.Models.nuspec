@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.44 - add some project events.
+      2.0.44 - add project events.
 
       Previous versions:
+      2.0.43 - add IGetDepartmentsRequest and IGetDepartmentsResponse.
       2.0.42 - add entitled vacation days.
       2.0.41 - add Project to Contracts.
       2.0.40 - fix DepartmentUserInfo.
