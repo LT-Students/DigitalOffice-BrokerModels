@@ -1,8 +1,9 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace DigitalOffice.Models.Broker.Enums;
 
-[JsonConverter(typeof(JsonStringEnumConverter<DepartmentUserAssignment>))]
+[JsonConverter(typeof(StringEnumConverter))]
 public enum DepartmentUserAssignment
 {
   Employee = 0,

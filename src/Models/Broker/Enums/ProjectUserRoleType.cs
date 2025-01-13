@@ -1,8 +1,9 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace LT.DigitalOffice.Models.Broker.Enums;
 
-[JsonConverter(typeof(JsonStringEnumConverter<ProjectUserRoleType>))]
+[JsonConverter(typeof(StringEnumConverter))]
 public enum ProjectUserRoleType
 {
   Manager,
