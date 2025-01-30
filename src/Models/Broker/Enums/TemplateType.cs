@@ -18,5 +18,6 @@ public enum TemplateType
   SurveyCreated = 9,
   SurveyReminder = 10,
   FeedbackReceived = 11,
-  WorkingHoursReminderPushNotification = 12
+  WorkingHoursReminderPushNotification = 12,
+  PlannedVacationIncoming = 13
 }
