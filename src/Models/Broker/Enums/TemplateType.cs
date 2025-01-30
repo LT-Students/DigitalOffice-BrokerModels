@@ -19,5 +19,7 @@ public enum TemplateType
   SurveyReminder = 10,
   FeedbackReceived = 11,
   WorkingHoursReminderPushNotification = 12,
-  PlannedVacationIncoming = 13
+  PlannedVacationInTwoWeeks = 13,
+  PlannedVacationInTwoWeeksManager = 14,
+  PlannedVacationInOneDay = 15
 }
