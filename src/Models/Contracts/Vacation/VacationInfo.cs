@@ -20,5 +20,15 @@ namespace DigitalOffice.Models.Contracts.Vacation
       EndDateUtc = endDateUtc;
       Comment = comment;
     }
+    
+    public override string ToString()
+    {
+      return
+        $"VacationInfo:\n" +
+        $"UserId = {UserId},\n" +
+        $"StartDateUtc = {StartDateUtc},\n" +
+        $"EndDateUtc = {EndDateUtc},\n" +
+        $"Comment = {Comment}";
+    }
   }
 }
