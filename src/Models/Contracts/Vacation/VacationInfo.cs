@@ -20,6 +20,7 @@ namespace DigitalOffice.Models.Contracts.Vacation
       UserId = userId;
       StartDateUtc = startDateUtc;
       EndDateUtc = endDateUtc;
+      Type = type;
       Comment = comment;
     }
   }
