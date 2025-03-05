@@ -13,7 +13,7 @@ public enum TemplateType
   ConfirmСommunication = 4,
   UserRecovery = 5,
   SmtpCheck = 6,
-  EmptyUserWorktimes = 7,
+  WorkTimeWithoutLeaveTime = 7,
   FeedbackReply = 8,
   SurveyCreated = 9,
   SurveyReminder = 10,
@@ -21,5 +21,6 @@ public enum TemplateType
   WorkingHoursReminderPushNotification = 12,
   PlannedVacationInTwoWeeks = 13,
   PlannedVacationInTwoWeeksManager = 14,
-  PlannedVacationInOneDay = 15
+  PlannedVacationInOneDay = 15,
+  WorkTimeWithLeaveTime = 16
 }
