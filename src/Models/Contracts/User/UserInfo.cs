@@ -22,7 +22,8 @@ namespace DigitalOffice.Models.Contracts.User
     bool IsActive,
     bool IsPending,
     int EntitledVacationDays,
-    List<UserCommunicationInfo> Communications)
+    List<UserCommunicationInfo> Communications,
+    UserRemoveDateInfo RemoveDateInfo)
   {
     /// <summary>
     /// ID.
@@ -103,5 +104,10 @@ namespace DigitalOffice.Models.Contracts.User
     /// User communications.
     /// </summary>
     public List<UserCommunicationInfo> Communications { get; init; } = Communications;
+
+    /// <summary>
+    /// User delayed infos.
+    /// </summary>
+    public UserRemoveDateInfo RemoveDateInfo { get; init; } = RemoveDateInfo;
   }
 }

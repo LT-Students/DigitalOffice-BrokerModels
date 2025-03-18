@@ -13,5 +13,7 @@ namespace DigitalOffice.Models.Contracts.User
     public bool? IsActive { get; set; }
     public bool? IsPending { get; set; }
     public bool? IsAdmin { get; set; }
+    public bool? IncludeCommunications { get; set; }
+    public bool? IncludeRemoveDate { get; set; }
   }
 }
