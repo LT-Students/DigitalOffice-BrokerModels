@@ -11,7 +11,7 @@ namespace DigitalOffice.Models.Contracts.Office
     public string Address { get; }
     public double? Latitude { get; set; }
     public double? Longitude { get; set; }
-    public List<Guid> UsersIds { get; }
+    public List<Guid> UserIds { get; }
 
     public OfficeInfo(
       Guid id,
@@ -20,7 +20,7 @@ namespace DigitalOffice.Models.Contracts.Office
       string address,
       double? latitude,
       double? longitude,
-      List<Guid> usersTds)
+      List<Guid> userTds)
     {
       Id = id;
       Name = name;
@@ -28,7 +28,7 @@ namespace DigitalOffice.Models.Contracts.Office
       Address = address;
       Latitude = latitude;
       Longitude = longitude;
-      UsersIds = usersTds;
+      UserIds = userTds;
     }
   }
 }

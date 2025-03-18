@@ -7,16 +7,16 @@ namespace DigitalOffice.Models.Contracts.Position
   {
     public Guid Id { get; }
     public string Name { get; }
-    public List<Guid> UsersIds { get; }
+    public List<Guid> UserIds { get; }
 
     public PositionInfo(
       Guid id,
       string name,
-      List<Guid> usersIds)
+      List<Guid> userIds)
     {
       Id = id;
       Name = name;
-      UsersIds = usersIds;
+      UserIds = userIds;
     }
   }
 }
