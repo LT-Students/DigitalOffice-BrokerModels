@@ -22,5 +22,13 @@ public enum TemplateType
   PlannedVacationInTwoWeeks = 13,
   PlannedVacationInTwoWeeksManager = 14,
   PlannedVacationInOneDay = 15,
-  WorkTimeWithLeaveTime = 16
+  WorkTimeWithLeaveTime = 16,
+  AddProjectUserSuccess = 17,
+  AddProjectUserFailure = 18,
+  RemoveProjectUserSuccess = 19,
+  RemoveProjectUserFailure = 20,
+  AddDepartmentUserSuccess = 21,
+  AddDepartmentUserFailure = 22,
+  ArchiveUserSuccess = 23,
+  ArchiveUserFailure = 24
 }
