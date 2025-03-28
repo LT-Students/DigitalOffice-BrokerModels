@@ -30,5 +30,6 @@ public enum TemplateType
   AddDepartmentUserSuccess = 21,
   AddDepartmentUserFailure = 22,
   ArchiveUserSuccess = 23,
-  ArchiveUserFailure = 24
+  ArchiveUserFailure = 24,
+  Offer = 25
 }
