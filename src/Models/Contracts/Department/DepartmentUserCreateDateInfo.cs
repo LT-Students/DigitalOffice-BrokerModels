@@ -4,7 +4,7 @@ using System;
 
 namespace DigitalOffice.Models.Contracts.Department
 {
-  public class DepartmentUserCreateDateInfo(
+  public record DepartmentUserCreateDateInfo(
     Guid Id,
     Guid UserId,
     Guid DepartmentId,

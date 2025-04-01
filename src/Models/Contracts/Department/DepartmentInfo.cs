@@ -14,7 +14,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
     public Guid? ParentId { get; init; }
     public CategoryInfo Category { get; init; }
     public List<DepartmentUserInfo> Users { get; init; }
-    public List<DepartmentUserCreateDateInfo> CreateDateInfos { get; init; }
+    public List<DepartmentUserCreateDateInfo> UserCreateDates { get; init; }
 
     public DepartmentInfo(
       Guid id,
@@ -25,7 +25,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
       Guid? parentId,
       CategoryInfo category,
       List<DepartmentUserInfo> users = null,
-      List<DepartmentUserCreateDateInfo> createDateInfos = null)
+      List<DepartmentUserCreateDateInfo> userCreateDates = null)
     {
       Id = id;
       Name = name;
@@ -35,7 +35,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
       ParentId = parentId;
       Category = category;
       Users = users;
-      CreateDateInfos = createDateInfos;
+      UserCreateDates = userCreateDates;
     }
   }
 }
