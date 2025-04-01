@@ -13,10 +13,10 @@ namespace DigitalOffice.Models.Broker.Contracts.Department.Events
     public DepartmentUserAssignment? Assignment { get; set; }
 
     static object CreateObj(
-      List<Guid> departmentIds,
-      List<Guid> userIds,
-      DepartmentUserRole? role,
-      DepartmentUserAssignment? assignment)
+      List<Guid> departmentIds = null,
+      List<Guid> userIds = null,
+      DepartmentUserRole? role = null,
+      DepartmentUserAssignment? assignment = null)
     {
       return new
       {

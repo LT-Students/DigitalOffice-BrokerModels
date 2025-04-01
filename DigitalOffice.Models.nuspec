@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.57</version>
+    <version>2.0.58</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.57 - add offer template type.
+      2.0.58 - add create date to departments contracts.
 
       Previous versions:
+      2.0.57 - add offer template type.
       2.0.56 - add delayed action templates.
       2.0.55 - add remove date, positions, offices to contracts.
       2.0.54 - change work time reminders.

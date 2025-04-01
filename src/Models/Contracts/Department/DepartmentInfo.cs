@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DigitalOffice.Models.Contracts.Department;
+using System;
 using System.Collections.Generic;
 
 namespace DigitalOffice.Models.Broker.Contracts.Department
@@ -13,6 +14,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
     public Guid? ParentId { get; init; }
     public CategoryInfo Category { get; init; }
     public List<DepartmentUserInfo> Users { get; init; }
+    public List<DepartmentUserCreateDateInfo> CreateDateInfos { get; init; }
 
     public DepartmentInfo(
       Guid id,
@@ -22,7 +24,8 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
       bool isActive,
       Guid? parentId,
       CategoryInfo category,
-      List<DepartmentUserInfo> users = null)
+      List<DepartmentUserInfo> users = null,
+      List<DepartmentUserCreateDateInfo> createDateInfos = null)
     {
       Id = id;
       Name = name;
@@ -32,6 +35,7 @@ namespace DigitalOffice.Models.Broker.Contracts.Department
       ParentId = parentId;
       Category = category;
       Users = users;
+      CreateDateInfos = createDateInfos;
     }
   }
 }
