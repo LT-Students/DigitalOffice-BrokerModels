@@ -11,14 +11,14 @@ namespace DigitalOffice.Models.Broker.Contracts.Department.Events
     public List<Guid> UserIds { get; set; }
     public DepartmentUserRole? Role { get; set; }
     public DepartmentUserAssignment? Assignment { get; set; }
-    public bool? IncludeCreateDate { get; set; }
+    public bool IncludeCreateDate { get; set; }
 
     static object CreateObj(
+      bool includeCreateDate,
       List<Guid> departmentIds = null,
       List<Guid> userIds = null,
       DepartmentUserRole? role = null,
-      DepartmentUserAssignment? assignment = null,
-      bool? includeCreateDate = null)
+      DepartmentUserAssignment? assignment = null)
     {
       return new
       {
