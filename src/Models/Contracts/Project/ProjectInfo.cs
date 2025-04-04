@@ -18,6 +18,8 @@ namespace DigitalOffice.Models.Contracts.Project
     public List<ProjectUserInfo> Users { get; init; }
     public List<Guid> Images { get; init; }
     public List<Guid> Files { get; init; }
+    public List<ProjectUserCreateDateInfo> UserCreateDates { get; init; }
+    public List<ProjectUserRemoveDateInfo> UserRemoveDates { get; init; }
 
     public ProjectInfo(
       Guid id,
@@ -32,7 +34,9 @@ namespace DigitalOffice.Models.Contracts.Project
       Guid? departmentId,
       List<ProjectUserInfo> users,
       List<Guid> images,
-      List<Guid> files)
+      List<Guid> files,
+      List<ProjectUserCreateDateInfo> userCreateDates = null,
+      List<ProjectUserRemoveDateInfo> userRemoveDates = null)
     {
       Id = id;
       Status = status;
@@ -47,6 +51,8 @@ namespace DigitalOffice.Models.Contracts.Project
       Users = users;
       Images = images;
       Files = files;
+      UserCreateDates = userCreateDates;
+      UserRemoveDates = userRemoveDates;
     }
   }
 }
