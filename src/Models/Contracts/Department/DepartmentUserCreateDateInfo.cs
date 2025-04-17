@@ -8,6 +8,7 @@ namespace DigitalOffice.Models.Contracts.Department
     Guid Id,
     Guid UserId,
     Guid DepartmentId,
+    string DepartmentName,
     DepartmentUserRole Role,
     DepartmentUserAssignment Assignment,
     DateTime CreateAtUtc,
@@ -27,6 +28,11 @@ namespace DigitalOffice.Models.Contracts.Department
     /// Department identifier.
     /// </summary>
     public Guid DepartmentId { get; init; } = DepartmentId;
+
+    /// <summary>
+    /// Department name.
+    /// </summary>
+    public string DepartmentName { get; init; } = DepartmentName;
 
     /// <summary>
     /// Department user role.
