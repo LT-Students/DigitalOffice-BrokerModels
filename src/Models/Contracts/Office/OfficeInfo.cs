@@ -5,13 +5,13 @@ namespace DigitalOffice.Models.Contracts.Office
 {
   public record OfficeInfo
   {
-    public Guid Id { get; }
-    public string Name { get; }
-    public string City { get; }
-    public string Address { get; }
-    public double? Latitude { get; set; }
-    public double? Longitude { get; set; }
-    public List<Guid> UserIds { get; }
+    public Guid Id { get; init; }
+    public string Name { get; init; }
+    public string City { get; init; }
+    public string Address { get; init; }
+    public double? Latitude { get; init; }
+    public double? Longitude { get; init; }
+    public List<Guid> UserIds { get; init; }
 
     public OfficeInfo(
       Guid id,
@@ -20,7 +20,7 @@ namespace DigitalOffice.Models.Contracts.Office
       string address,
       double? latitude,
       double? longitude,
-      List<Guid> userTds)
+      List<Guid> userIds)
     {
       Id = id;
       Name = name;
@@ -28,7 +28,7 @@ namespace DigitalOffice.Models.Contracts.Office
       Address = address;
       Latitude = latitude;
       Longitude = longitude;
-      UserIds = userTds;
+      UserIds = userIds;
     }
   }
 }
