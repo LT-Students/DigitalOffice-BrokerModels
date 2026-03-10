@@ -2,7 +2,7 @@
 
 namespace LT.DigitalOffice.Models.Contracts.Time.Events;
 
-public interface ICreateLeaveTimeRequest
+public interface ILeaveTimeCreated
 {
   /// <summary>
   /// Id of user who will leave.

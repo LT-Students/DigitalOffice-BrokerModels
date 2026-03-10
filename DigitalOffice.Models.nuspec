@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>LTDO.Models</id>
-    <version>2.0.65</version>
+    <version>2.0.66</version>
     <title>LTDO.Models</title>
     <authors>Lanit-Tercom Digital Office Team</authors>
     <owners>Lanit-Tercom Digital Office</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      2.0.65 - Rename ICreateLeaveTimeRequest and place it and LeaveType in proper folders.
+      2.0.66 - Fix the actual class name for ILeaveTimeCreated.
 
       Previous versions:
+      2.0.65 - Rename ICreateLeaveTimeRequest and place it and LeaveType in proper folders.
       2.0.64 - Add ICreateLeaveTimeRequest and LeaveType models.
       2.0.63 - fix OfficeInfo in contracts.
       2.0.62 - add project and department names to delayed actions.
