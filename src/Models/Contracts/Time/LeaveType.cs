@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace LT.DigitalOffice.Models.Broker.Enums;
+namespace LT.DigitalOffice.Models.Contracts.Time;
 
 [JsonConverter(typeof(StringEnumConverter))]
 public enum LeaveType

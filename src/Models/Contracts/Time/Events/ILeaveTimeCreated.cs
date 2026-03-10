@@ -1,7 +1,6 @@
 ﻿using System;
-using LT.DigitalOffice.Models.Broker.Enums;
 
-namespace LT.DigitalOffice.Models.Broker.Requests.Time;
+namespace LT.DigitalOffice.Models.Contracts.Time.Events;
 
 public interface ICreateLeaveTimeRequest
 {
